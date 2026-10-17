@@ -1,0 +1,56 @@
+{
+  "removed": [
+    {
+      "path": "cleanup-archive-2026-10-14",
+      "bytes": 4069554496
+    },
+    {
+      "path": "outputs/agent-x84-headgear-audit-v7",
+      "bytes": 3865835
+    },
+    {
+      "path": "outputs/agent-x84-headgear-audit-v7.zip",
+      "bytes": 3708726
+    },
+    {
+      "path": "outputs/agent-x84-headgear-contact-fit",
+      "bytes": 61593393
+    },
+    {
+      "path": "outputs/agent-x84-headgear-contact-fit.zip",
+      "bytes": 61319614
+    },
+    {
+      "path": "outputs/agent-x84-headgear-redraw-v6",
+      "bytes": 22745232
+    },
+    {
+      "path": "outputs/agent-x84-headgear-redraw-v6.zip",
+      "bytes": 22522065
+    },
+    {
+      "path": "outputs/kaboom-github/public/Kaboom5050Ecosystem.sol",
+      "bytes": 6591
+    },
+    {
+      "path": "outputs/kaboom-github/dist/Kaboom5050Ecosystem.sol",
+      "bytes": 6591
+    },
+    {
+      "path": "outputs/kaboom-site/dist/Kaboom5050Ecosystem.sol",
+      "bytes": 6591
+    },
+    {
+      "path": "work/test-metadata-export.zip",
+      "bytes": 885
+    }
+  ],
+  "freed_bytes": 4245330019,
+  "preserved": [
+    "Approved mounted-master-v8 headgear",
+    "All 1200 final NFT images and metadata",
+    "Active contract source",
+    "Local website and complete deployment export",
+    "Generation and validation scripts"
+  ]
+}
