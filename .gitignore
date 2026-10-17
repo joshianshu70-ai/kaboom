@@ -1,0 +1,13 @@
+# Generated exports and large originals
+/dist/
+/public/collection/images/
+*.zip
+*.tar.gz
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+*.log

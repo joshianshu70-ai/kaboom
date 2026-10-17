@@ -1,0 +1,51 @@
+{
+  "name": "Agent X-84 #207",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "https://kaboom.thehouseofjoshi.com/collection/images/207.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mars Outpost"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Classic Green"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Grey Hoodie"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "Double Bottom"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "To The Moon"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Common"
+    }
+  ],
+  "properties": {
+    "edition": 207,
+    "edition_size": 1200,
+    "rarity_score": 26.561605,
+    "rarity_rank": 229,
+    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+  }
+}
