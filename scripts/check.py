@@ -20,3 +20,12 @@ for p in s.rglob('*'):
  assert not p.is_symlink(),p
  if p.is_file():assert p.stat().st_size<95*1024*1024,p
 print('Passed: local root links, 1,200 production metadata URLs, no symlinks and no oversized Git files.')
+
+# Fitted headgear asset registration contract
+import hashlib,struct
+lock=json.loads((s/'assets/headgear-fit-lock.json').read_text())
+for name,digest in lock['files'].items():
+ data=(s/name).read_bytes()
+ assert hashlib.sha256(data).hexdigest()==digest, 'Fitted asset changed; re-review registration: '+name
+ assert data[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',data[16:24])==(1024,1024),name
+print('Passed: fitted body, expression and headgear registration checks.')

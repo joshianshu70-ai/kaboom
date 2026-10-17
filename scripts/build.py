@@ -1,7 +1,8 @@
 from pathlib import Path
-import argparse,shutil,json
+import argparse,shutil,json,subprocess,sys
 p=argparse.ArgumentParser();p.add_argument('--nft-source',help='Folder containing 1.png through 1200.png for a complete Hostinger export');a=p.parse_args()
 root=Path(__file__).resolve().parents[1];dest=root/'dist'
+subprocess.run([sys.executable,str(root/'scripts/check.py')],check=True)
 if dest.exists():shutil.rmtree(dest)
 shutil.copytree(root/'public',dest)
 if a.nft_source:

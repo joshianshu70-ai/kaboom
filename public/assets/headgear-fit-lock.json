@@ -1,0 +1,40 @@
+{
+  "revision": "mounted-master-v8",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "placement": [
+    0,
+    0
+  ],
+  "render_rule": "Full-canvas alpha composite in fixed order; no bbox cropping, automatic resizing, per-trait offsets or mesh warps at render time.",
+  "files": {
+    "assets/layers/03-base-bodies/classic-green.png": "2214c835495152e63ebdc701c5736a96944c6401d9798dc81e8ed72ff3ed8e4a",
+    "assets/layers/03-base-bodies/cosmic-purple.png": "06ea0511bcfcb6bd14ed6ea1957c8183fcdebfb7cb3a85aece7df699a448792e",
+    "assets/layers/03-base-bodies/emerald.png": "dc0e04d7baf105fd90babf73020ea90553b6832ddffa7e9b24a6410bb1548591",
+    "assets/layers/03-base-bodies/lime.png": "bda2cd9b624d9f303dad2105d03151816213912a22c75b47ef937ca5f994070b",
+    "assets/layers/03-base-bodies/mint.png": "9faf726f2d1644aaddd3fc3eab937a6a9f33c364aba3436e65db019520027daa",
+    "assets/layers/03-base-bodies/silver.png": "3a298060695b7ae7827045cef5fb54475ed3e810c826631f2496be16d6ea1ab6",
+    "assets/layers/03-base-bodies/ultra-rare-gold.png": "82e5c635e63f06281960e292479d906a4790be6185692b03cfec45065269194e",
+    "assets/layers/05-expressions/cosmic-rage.png": "1c783adc639e6cbed754d26e4688ea9c06a7d7014eb0607db0703a847069de54",
+    "assets/layers/05-expressions/determined.png": "57f31253cf200b4354625ad033373c85ab4f7a2c17d135d7a18f61131d4c45bc",
+    "assets/layers/05-expressions/diamond-focus.png": "a382940a6a8185714fc06854d2e284e87dbd527474070754f08f9dee3bdb5721",
+    "assets/layers/05-expressions/fomo-eyes.png": "e6de2edc2a67ef912e40fc28ad5c34bbaf75b3c07047851639885ba769c4608c",
+    "assets/layers/05-expressions/panic-eyes.png": "c395a5f132f16b7d27d936865e95965ab4eb66f57f6129019ce55e795f1acf7f",
+    "assets/layers/05-expressions/rolled-eyes.png": "020f9fa1c51180323f868e548b72af2e3d3bd6fb3ca1b4aa99c3e1f60d3be4c6",
+    "assets/layers/05-expressions/sleepy-trader.png": "f55ed56fb22667b55750a43c5cf34a1d74e149b65a0b1ac01fdbf2e95a814832",
+    "assets/layers/05-expressions/smirk.png": "eb5dd7a79369337f7742ca01c923765bff1ac887cf1b14f969fa636586b16c42",
+    "assets/layers/05-expressions/unbothered.png": "c2f027d8b721e798c535df8c71bbb6250eb866eed53e46f93b158a93d21f808d",
+    "assets/layers/05-expressions/yeah-right.png": "150668bf273cebd0abac5faae8679cc4d7dd747e0a6dc8a9cf3639c6beafe030",
+    "assets/layers/06-headgear/beanie.png": "43e77b914ab5ee0cf0a2982f7764e6a09162828abec80742cf365c585f6fb836",
+    "assets/layers/06-headgear/black-headphones.png": "87d218151e7f3cad0f1268fcbdd1cd59d2da88703f638b78a5e4cdd75a6fbfa5",
+    "assets/layers/06-headgear/cowboy-hat.png": "a1335efe2fc7136c993efa7a3e9359bc5102d35e55b953f2aa34d3ed102d5cd2",
+    "assets/layers/06-headgear/gold-headphones.png": "c7c988fa04574b196f6e6dd151b5073cdb00fbba64149777218005183e5d8ef1",
+    "assets/layers/06-headgear/none.png": "265149d454822c2c808720c61f5a4317c0bfda56fc96598ea7b19b6ea52c5dd1",
+    "assets/layers/06-headgear/pilot-goggles.png": "83b5ace49f407c2e57d351fb75e4480f474a4e4e7e581159004e88d79c792e3c",
+    "assets/layers/06-headgear/silver-headphones.png": "7e1e30e60434a000ab9d961a9863a394eaf3157fa27364c41da63d978162a5b0",
+    "assets/layers/06-headgear/space-helmet.png": "e8bb040de55d2d31a8ff1de8af6d338c2f9471afa3ffe17612d5e41ed8831964",
+    "assets/layers/06-headgear/trucker-cap.png": "1f4d4588693fb74f2a6114a1e982f078a15ef32dfb7addd0e38a589c9e1008e8"
+  }
+}
