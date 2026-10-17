@@ -61,3 +61,12 @@ Confirm legal operator identity and final NFT artwork license; current pages exp
 Hiding preview links or adding robots.txt does not protect artwork. Static admin tools and assets are publicly accessible on hosting unless server-side access control is added. Contract writes still require appropriate wallet authority. Do not publish a public GitHub repository if collection secrecy is required.
 
 No new license is granted for artwork by this repository. Individual source-file license notices remain in effect. Contact support@thehouseofjoshi.com.
+
+## Reown AppKit wallet connections
+Home, mint and admin pages use the official Ethers adapter on Base (8453), including WalletConnect QR/mobile and installed wallets. Project ID: `4fccd98dd84a730565d62668722ab201` (public frontend identifier, not a private key).
+
+In the Reown Dashboard, allow `https://kaboom.thehouseofjoshi.com` and your development origin (`http://127.0.0.1:4173` or `http://localhost:4173`). Metadata uses the current origin so it matches the page. Dashboard ownership, project validity and origin permissions must be checked in your account.
+
+The compiled SDK is included in public/vendor/appkit so Hostinger needs no Node runtime. To rebuild after source/dependency changes, use Node 22+, `npm ci`, `npm run build:wallet`, `npm run test:wallet`, then the usual Python build. Commit the generated bundle and lockfile together. No server secret is needed.
+
+The app uses the provider chosen in AppKit for every signature and transaction, retains exact token approvals and Base/account checks, and clears reviews on account, chain, connector or disconnect changes. Connecting does not mint, approve tokens or request a signature.

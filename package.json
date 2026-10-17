@@ -7,6 +7,16 @@
   "scripts": {
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory public",
     "check": "python3 scripts/check.py",
-    "build": "python3 scripts/build.py"
+    "build": "python3 scripts/build.py",
+    "build:wallet": "node scripts/build-wallet.mjs",
+    "test:wallet": "node --test tests/*.test.mjs tests/*.test.cjs"
+  },
+  "dependencies": {
+    "@reown/appkit": "1.8.24",
+    "@reown/appkit-adapter-ethers": "1.8.24",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
   }
 }

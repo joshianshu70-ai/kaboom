@@ -1,3 +1,4 @@
+import {walletProvider,connectWallet,disconnectWallet} from './wallet.js';
 import {BrowserProvider, Contract, formatUnits, parseUnits} from './vendor/ethers.min.js';
 const ADMIN='0x6736d2ea9807297f0e56967361b9410854b86a5f';
 const NFT='0x9acaa832f7c9cbabf2f001b7bb01be7b1279c226';
@@ -12,12 +13,12 @@ const lock=()=>document.querySelectorAll('.write').forEach(b=>b.disabled=!ready|
 function invalidate(){epoch++;ready=false;$('accept').disabled=true;pending=null;$('review').hidden=true;lock();}
 function error(e){return e.shortMessage||e.reason||e.message||String(e);}
 async function check(){
- invalidate();if(!window.ethereum)throw Error('Install a browser wallet such as MetaMask or Coinbase Wallet.');
- const chain=await window.ethereum.request({method:'eth_chainId'});
- const accounts=await window.ethereum.request({method:'eth_accounts'});account=accounts[0]?.toLowerCase();
+ invalidate();
+ const chain=await walletProvider.request({method:'eth_chainId'});
+ const accounts=await walletProvider.request({method:'eth_accounts'});account=accounts[0]?.toLowerCase();
  if(chain!=='0x2105')throw Error('Select Base mainnet (chain ID 8453) in your wallet.');
  if(account!==ADMIN)throw Error('Connect the allowed admin wallet: '+ADMIN);
- provider=new BrowserProvider(window.ethereum);const signer=await provider.getSigner();
+ provider=new BrowserProvider(walletProvider);const signer=await provider.getSigner();
  nft=new Contract(NFT,nftABI,signer);token=new Contract(TOKEN,tokenABI,signer);
  const [nftCode,tokenCode]=await Promise.all([provider.getCode(NFT),provider.getCode(TOKEN)]);
  if(nftCode==='0x'||tokenCode==='0x')throw Error('Contract bytecode not found on Base. Check deployment addresses.');
@@ -32,17 +33,18 @@ async function check(){
  ready=true;$('access').textContent='Verified admin wallet and NFT ownership on Base.';$('connect').textContent='Admin connected';lock();
 }
 async function refresh(){try{await check();}catch(e){$('access').textContent=error(e);say(error(e));}}
-$('connect').onclick=async()=>{try{if(!window.ethereum)throw Error('Install a browser wallet to continue.');await window.ethereum.request({method:'eth_requestAccounts'});if(await window.ethereum.request({method:'eth_chainId'})!=='0x2105')await window.ethereum.request({method:'wallet_switchEthereumChain',params:[{chainId:'0x2105'}]});await refresh();}catch(e){say(error(e));}};
+$('connect').onclick=async()=>{try{await connectWallet();if(await walletProvider.request({method:'eth_chainId'})!=='0x2105')await walletProvider.request({method:'wallet_switchEthereumChain',params:[{chainId:'0x2105'}]});await refresh();}catch(e){say(error(e));}};
 $('refresh').onclick=refresh;
-window.ethereum?.on('accountsChanged',()=>{invalidate();$('access').textContent='Wallet changed. Refresh to verify access.';});
-window.ethereum?.on('chainChanged',()=>{invalidate();$('access').textContent='Network changed. Refresh to verify Base access.';});
+walletProvider?.on('accountsChanged',()=>{invalidate();$('access').textContent='Wallet changed. Refresh to verify access.';});
+walletProvider.on('chainChanged',()=>{invalidate();$('access').textContent='Network changed. Refresh to verify Base access.';});
+walletProvider.on('disconnect',()=>{invalidate();$('connect').textContent='Connect wallet';$('access').textContent='Wallet disconnected. Reconnect to verify admin access.';});
 function review(action,value,details){if(!ready||busy)return;pending={action,value,epoch};$('details').textContent='Network: Base mainnet (8453)\nFrom: '+ADMIN+'\nNFT contract: '+NFT+'\n'+details;$('review').hidden=false;$('review').scrollIntoView({behavior:'smooth'});}
 $('priceForm').onsubmit=e=>{e.preventDefault();try{const v=$('newPrice').value.trim();if(!/^[0-9]+$/.test(v)||BigInt(v)<=0n||BigInt(v)>((2n**256n-1n)/10n**18n))throw Error('Enter a positive whole-token price.');review('price',v,'Set mint price to '+v+' $KABOOM.');}catch(e){say(error(e));}};
 $('uriForm').onsubmit=e=>{e.preventDefault();const uri=$('newURI').value.trim();if(!/^(ipfs:\/\/|https:\/\/|ar:\/\/)/.test(uri)||!uri.endsWith('/'))return say('Use an ipfs://, ar:// or https:// folder URI ending with /.');review('uri',uri,'Set metadata base URI to '+uri+'\nToken #1 will resolve to '+uri+'1 (no .json suffix).');};
 $('fundForm').onsubmit=e=>{e.preventDefault();try{const v=$('fundAmount').value.trim();if(!/^\d+(\.\d{1,18})?$/.test(v))throw Error('Enter a positive token amount with up to 18 decimal places.');const amount=parseUnits(v,18);if(amount<=0n||amount>capacity||amount>balance)throw Error('Amount exceeds your balance or remaining funding capacity, or is zero.');review('fund',v,'Fund vault with '+v+' $KABOOM.\nMay require two wallet transactions: exact token approval, then vault funding.');}catch(e){say(error(e));}};
 $('cancel').onclick=()=>{pending=null;$('review').hidden=true;};
 async function send(contract,method,args){
- const chain=await window.ethereum.request({method:'eth_chainId'});const accounts=await window.ethereum.request({method:'eth_accounts'});
+ const chain=await walletProvider.request({method:'eth_chainId'});const accounts=await walletProvider.request({method:'eth_accounts'});
  if(chain!=='0x2105'||accounts[0]?.toLowerCase()!==ADMIN||(await nft.owner()).toLowerCase()!==ADMIN)throw Error('Wallet, network or ownership changed. Reconnect and review again.');
  await contract[method].staticCall(...args);say('Confirm '+method+' in your wallet.');const tx=await contract[method](...args);
  const link=document.createElement('a');link.href='https://basescan.org/tx/'+tx.hash;link.target='_blank';link.rel='noopener';link.textContent=method+' · Pending · '+tx.hash;$('transactions').prepend(link);say('Transaction submitted. Waiting for confirmation…');
@@ -56,7 +58,7 @@ $('confirm').onclick=async()=>{if(!pending||busy||!ready)return;const task=pendi
  say('Confirmed on Base.');await refresh();
  }catch(e){say(error(e));}finally{busy=false;$('confirm').disabled=false;lock();}};
 
-$('accept').onclick=async()=>{if(busy)return;busy=true;$('accept').disabled=true;lock();try{const chain=await window.ethereum.request({method:'eth_chainId'});const accounts=await window.ethereum.request({method:'eth_accounts'});if(chain!=='0x2105'||accounts[0]?.toLowerCase()!==ADMIN||(await nft.pendingOwner()).toLowerCase()!==ADMIN)throw Error('This wallet is not the nominated owner on Base.');await nft.acceptOwnership.staticCall();say('Confirm ownership acceptance in your wallet.');const tx=await nft.acceptOwnership();const link=document.createElement('a');link.href='https://basescan.org/tx/'+tx.hash;link.textContent='Ownership acceptance · '+tx.hash;link.target='_blank';link.rel='noopener';$('transactions').prepend(link);const receipt=await tx.wait();if(receipt.status!==1)throw Error('Ownership acceptance failed.');say('Ownership accepted on Base.');}catch(e){say(error(e));}finally{busy=false;await refresh();lock();}};
+$('accept').onclick=async()=>{if(busy)return;busy=true;$('accept').disabled=true;lock();try{const chain=await walletProvider.request({method:'eth_chainId'});const accounts=await walletProvider.request({method:'eth_accounts'});if(chain!=='0x2105'||accounts[0]?.toLowerCase()!==ADMIN||(await nft.pendingOwner()).toLowerCase()!==ADMIN)throw Error('This wallet is not the nominated owner on Base.');await nft.acceptOwnership.staticCall();say('Confirm ownership acceptance in your wallet.');const tx=await nft.acceptOwnership();const link=document.createElement('a');link.href='https://basescan.org/tx/'+tx.hash;link.textContent='Ownership acceptance · '+tx.hash;link.target='_blank';link.rel='noopener';$('transactions').prepend(link);const receipt=await tx.wait();if(receipt.status!==1)throw Error('Ownership acceptance failed.');say('Ownership accepted on Base.');}catch(e){say(error(e));}finally{busy=false;await refresh();lock();}};
 
 async function loadToken(){
  $('tokenSupply').textContent=formatUnits(await token.totalSupply(),18)+' $KABOOM';
