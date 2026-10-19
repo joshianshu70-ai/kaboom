@@ -27,3 +27,7 @@ Small gold HOJ marks sit on both white shoulder-strap panels immediately above t
 ## Racing-suit HOJ zipper pull
 
 Replaced the silver tapered pull with a shaped gold HOJ monogram connected to the original upper slider by a gold ring. All racing-suit draft editions use the same updated outfit asset. Live mint metadata remains unchanged.
+
+## Astronaut shoulder straps
+
+Added paired gold HOJ marks to the white strap panels above both astronaut buckles, following the strap angles. Rebuilt all affected draft editions and refreshed their artwork hashes. Live mint metadata remains unchanged.
