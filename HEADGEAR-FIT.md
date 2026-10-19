@@ -1,7 +1,9 @@
-# Fixed-canvas artwork fit
+# Shared mint artwork
 
-Revision: mounted-master-v8. The beanie, cowboy hat, trucker cap, silver headphones and pilot goggles were designed on the mint base head before creating the registered layers. Black and gold headphone variants use the same silhouette. Helmet and transparent None remain compatible.
+`public/assets/layers` contains the approved fixed-canvas layers. `public/artwork-release.json` records every layer's SHA-256; the renderer uses these hashes in image URLs to invalidate old cached assets. Do not crop, scale, reposition or substitute layers during rendering.
 
-Every layer is a full 1024×1024 RGBA canvas. Render at (0,0) in the fixed stacking order. Do not trim transparent margins, fit by bounding box, scale a trait independently or apply dynamic offsets. Browser rendering rejects mismatched layer dimensions. scripts/check.py verifies the reviewed body/expression/headgear hashes and PNG dimensions; build.py runs those checks before export.
+`public/collection/artwork-plan.json` fixes all 1,200 edition IDs, traits and original PNG hashes. The studio loads this plan rather than creating a separate seeded draft collection. Custom builder previews do not change the next token ID minted by the contract.
 
-To deliberately replace artwork, re-review all body colors, expressions and outfits, then regenerate the fit-lock manifest. The checksum is a regression guard, not a claim that artistic judgment can be automated. Source NFT originals remain outside Git. Contact shadows are neutral so they can be reused across all seven body colors; goggles use translucent neutral glass.
+Gallery detail images and metadata exports resolve through `collection/metadata/{id}`, the same metadata used for minting. Preserve the published IPFS URLs when updating the site. Publishing a new layer also requires rebuilding affected original PNGs, updating thumbnails, publishing their image metadata, and updating the fixed plan's image hashes.
+
+Run `python3 scripts/check.py` before deploying. It verifies the approved fit lock, shared release hashes and complete fixed edition plan. The current release was additionally checked by compositing all 1,200 editions and comparing each result pixel for pixel with its mint original.
