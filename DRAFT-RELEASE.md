@@ -55,3 +55,7 @@ Removed the tactical jacket chest logo from the builder policy and fixed draft e
 ## Trading suit shirt logo
 
 Moved the existing gold HOJ hallmark from the teal jacket chest to the centre of the pink inner shirt. The full-canvas branding layer is shared by the builder and fixed editions. Live mint metadata remains unchanged.
+
+## Material-matched marks
+
+Added a centred silver mark contained within the narrow tactical collar strip, a tonal red fabric mark on the wearer-left racing chest, paired silver HOJ reliefs on the pirate coat buttons, and a small purple mark fully inside the cyberpunk purple inset. No gold chest overlays or zipper ornaments were reinstated. Rebuilt all 330 affected draft editions. Live mint metadata remains unchanged.

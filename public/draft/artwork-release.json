@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-centered-shirt-v14",
+  "revision": "hoj-material-matched-v15",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -26,7 +26,7 @@
     "assets/layers/02-auras/gold.png": "b6862f4a8d23af5dcf357e5bd40c7163242a761ad403ca0d4d396a1301588006",
     "assets/layers/04-outfits/moon-explorer.png": "fbe504cedaefe94190a5362b7a6637fa334cb8d4595b176d1f643e3f83330df8",
     "assets/layers/04-outfits/astronaut.png": "44e50a5e71bab911559c497065e00ba98664717326da47263990eed3f3566cba",
-    "assets/layers/04-outfits/tactical-agent.png": "50ef731865478759ee5f9f720dcb80a2043a69dec2deb2930bb193d19e92f888",
+    "assets/layers/04-outfits/tactical-agent.png": "9dfc40a89eef4b587418ffc23c6d3751b5a89d9ce7362db967e2af06914a060f",
     "assets/layers/04-outfits/galactic-emperor.png": "2dd54cb21f07961ac949b095fcdb04723ab9f712d0f3f9a531a512fd7b613011",
     "assets/layers/04-outfits/purple-hoodie.png": "9acb7adc93e1b4efcaa38612aac05efa177b9ab057263893dafa2b835ba85547",
     "assets/layers/04-outfits/puffer-jacket.png": "ecb3930f1af06d821c0322a99581346dc0a6009a3e14c0e7e5e1f01a3c4cb649",
@@ -35,9 +35,9 @@
     "assets/layers/04-outfits/trading-suit.png": "a11f8b6d5e8f84cfdb38f85651649c577f543bbf08468facae40af26ac306217",
     "assets/layers/04-outfits/space-suit.png": "e627ef2b95564f21fc4215d36864d111ff74aff5bfd340bf1117f9fc344ca4f2",
     "assets/layers/04-outfits/royal-commander.png": "23acecf7e525a3f92c4b0fe4b8771c773eddb4b744033c652525e11429010f6c",
-    "assets/layers/04-outfits/racing-suit.png": "13546d05e4247e2b90a4309bbebaad43fcc89606d2b3b0010960796c7edeb522",
-    "assets/layers/04-outfits/cyberpunk-jacket.png": "4e50dd6c937063b0b8f2207b3f797a82ef2fd59277c529481c525f4339a0032e",
-    "assets/layers/04-outfits/pirate-captain.png": "5fe4f825ebf7b54aa59c1dbda4c79f7046d0627fe2121fad8a80b4f0033f8ac6",
+    "assets/layers/04-outfits/racing-suit.png": "0b0826831a08d186e2a6121c5c75271fd921bc85799b9b85421024992f6aa581",
+    "assets/layers/04-outfits/cyberpunk-jacket.png": "7611b923fffd599ae6b8b19dfe6dd54d820e4c8b6eaf8c0133ce1d65fcedc263",
+    "assets/layers/04-outfits/pirate-captain.png": "68d31ba29195f70dd210ae04d3ae06d6b0437ac6980e9d85d3e6efd6bdbcccae",
     "assets/layers/03-base-bodies/emerald.png": "dc0e04d7baf105fd90babf73020ea90553b6832ddffa7e9b24a6410bb1548591",
     "assets/layers/03-base-bodies/lime.png": "bda2cd9b624d9f303dad2105d03151816213912a22c75b47ef937ca5f994070b",
     "assets/layers/03-base-bodies/cosmic-purple.png": "06ea0511bcfcb6bd14ed6ea1957c8183fcdebfb7cb3a85aece7df699a448792e",
