@@ -37,7 +37,7 @@
   "chart_and_phrase_never_stacked": true,
   "chart_editions": 176,
   "phrase_editions": 335,
-  "chest_hallmarks": 417,
+  "chest_hallmarks": 331,
   "headgear_hallmarks": 460,
   "gold_editions": 12,
   "founder_number_one_preserved": true,
@@ -87,5 +87,6 @@
     ],
     "published_mint_changed": false
   },
-  "cyberpunk_chest_branding": false
+  "cyberpunk_chest_branding": false,
+  "tactical_chest_branding": false
 }
