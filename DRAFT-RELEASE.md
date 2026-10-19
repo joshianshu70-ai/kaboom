@@ -23,3 +23,7 @@ The three HOJ clasp buttons now use gold rims, recessed gold faces and raised go
 ## Space-suit shoulder straps
 
 Small gold HOJ marks sit on both white shoulder-strap panels immediately above the buckles, following the strap angles. Rebuilt all 84 space-suit draft editions and updated artwork hashes. Existing hardware and mint metadata remain unchanged.
+
+## Racing-suit HOJ zipper pull
+
+Replaced the silver tapered pull with a shaped gold HOJ monogram connected to the original upper slider by a gold ring. All racing-suit draft editions use the same updated outfit asset. Live mint metadata remains unchanged.
