@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-intentional-meme-v1",
+  "revision": "hoj-intentional-meme-v1-brimfix",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -71,7 +71,7 @@
     "assets/layers/08-accessories/none.png": "265149d454822c2c808720c61f5a4317c0bfda56fc96598ea7b19b6ea52c5dd1",
     "assets/layers/06-headgear/silver-headphones.png": "6b876bb2f400de0774e068f17fbb69c5ea3c70598c147e3dce7ffae2b41fd134",
     "assets/layers/06-headgear/gold-headphones.png": "c7c988fa04574b196f6e6dd151b5073cdb00fbba64149777218005183e5d8ef1",
-    "assets/layers/06-headgear/cowboy-hat.png": "b0103eee102c9cf47ddee771a732a9aa6c2f5397fa5e7e652938631b9d37763f",
+    "assets/layers/06-headgear/cowboy-hat.png": "e1131e77d02bb6b516b5f54f6e303e92bc2818d821f2135816b9ea8dfeead1d0",
     "assets/layers/06-headgear/beanie.png": "791005a099d3246263ef4f582025c698aa461be1dc8e38d4167177a1afd56b34",
     "assets/layers/06-headgear/black-headphones.png": "87d218151e7f3cad0f1268fcbdd1cd59d2da88703f638b78a5e4cdd75a6fbfa5",
     "assets/layers/06-headgear/pilot-goggles.png": "83b5ace49f407c2e57d351fb75e4480f474a4e4e7e581159004e88d79c792e3c",

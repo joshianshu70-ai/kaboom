@@ -43,5 +43,27 @@
   "founder_number_one_preserved": true,
   "branding_policy": "One subtle hallmark on approved headgear, otherwise eligible hoodie/puffer chest; no duplicates.",
   "images_rendered_and_hash_verified": 1200,
-  "helmet_phrase_overlap": 0
+  "helmet_phrase_overlap": 0,
+  "cowboy_brim_repair": {
+    "restored_pixels": 1292,
+    "affected_editions": 141,
+    "repair_bounds": [
+      [
+        145,
+        330,
+        225,
+        390
+      ],
+      [
+        799,
+        330,
+        879,
+        390
+      ]
+    ],
+    "method": "Restore original reference dark-leather pixels incorrectly removed by alpha extraction. No skin/background pixels restored.",
+    "placement_changed": false,
+    "logo_changed": false,
+    "published_mint_metadata_changed": false
+  }
 }
