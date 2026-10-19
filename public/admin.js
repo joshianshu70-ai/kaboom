@@ -1,3 +1,4 @@
+import {readMetadataBaseURI,METADATA_BASE_URI} from './metadata-config.js';
 import {walletProvider,connectWallet,disconnectWallet} from './wallet.js';
 import {BrowserProvider, Contract, formatUnits, parseUnits} from './vendor/ethers.min.js';
 const ADMIN='0x6736d2ea9807297f0e56967361b9410854b86a5f';
@@ -28,7 +29,7 @@ async function check(){
  await loadToken();
  $('price').textContent=formatUnits(price,18);$('minted').textContent=String(minted)+' / 1,200';$('budget').textContent=formatUnits(budget,18);$('balance').textContent=formatUnits(walletBalance,18);
  capacity=full-burned-rewarded-budget;balance=walletBalance;$('capacity').textContent='Remaining funding capacity: '+formatUnits(capacity>0n?capacity:0n,18)+' $KABOOM';
- $('uri').textContent=minted>0n?await nft.tokenURI(1):'Unavailable until first mint';
+ $('uri').textContent=(await readMetadataBaseURI(provider,NFT))||'Not set — configure the metadata base URL before opening the mint.';
  if(owner.toLowerCase()!==ADMIN)throw Error('This wallet is not the current NFT owner. Owner-only updates are disabled.');
  ready=true;$('access').textContent='Verified admin wallet and NFT ownership on Base.';$('connect').textContent='Admin connected';lock();
 }
@@ -64,4 +65,9 @@ async function loadToken(){
  $('tokenSupply').textContent=formatUnits(await token.totalSupply(),18)+' $KABOOM';
  const rows=[['opsWallet','developmentAndOperationsWallet'],['familyWallet','wifeAndIWallet'],['partnerWallet','strategicPartnershipsWallet'],['treasuryWallet','ecosystemTreasuryWallet'],['liquidityWallet','liquidityReserveWallet']];
  await Promise.all(rows.map(async([id,method])=>{try{let address;try{address=await token[method]();}catch(e){if(method!=='wifeAndIWallet')throw e;address=await token.foundersReserveWallet();}$(id).textContent=address;}catch(e){$(id).textContent='Getter unavailable in deployed token';}}));
+}
+
+if(typeof location!=='undefined'&&new URLSearchParams(location.search).get('setup')==='metadata'){
+ $('newURI').value=METADATA_BASE_URI;
+ say('Launch setup: connect the owner wallet, review the prefilled metadata URL, then confirm setBaseURI in your wallet.');
 }

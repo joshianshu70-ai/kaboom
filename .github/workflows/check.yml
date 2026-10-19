@@ -17,5 +17,6 @@ jobs:
       - run: npm ci
       - run: npm run build:wallet
       - run: npm run test:wallet
+      - run: python3 tests/pinata-uploader.test.py
       - run: python3 scripts/check.py
       - run: python3 scripts/build.py

@@ -70,3 +70,15 @@ In the Reown Dashboard, allow `https://kaboom.thehouseofjoshi.com` and your deve
 The compiled SDK is included in public/vendor/appkit so Hostinger needs no Node runtime. To rebuild after source/dependency changes, use Node 22+, `npm ci`, `npm run build:wallet`, `npm run test:wallet`, then the usual Python build. Commit the generated bundle and lockfile together. No server secret is needed.
 
 The app uses the provider chosen in AppKit for every signature and transaction, retains exact token approvals and Base/account checks, and clears reviews on account, chain, connector or disconnect changes. Connecting does not mint, approve tokens or request a signature.
+
+## Current hosting: Vercel and IPFS
+Vercel is the current hosting choice; earlier Hostinger notes describe the previous option. Use this repository root as the Vercel project root. vercel.json serves the precompiled public folder and sets JSON content type for extensionless metadata files. No Node install or build command is needed for this static deployment.
+
+The local-only scripts/pinata-upload.py uploader accepts a private accounts-file outside the repository; see its --help. It assigns 240 images and 240 metadata files per supplied account and checks available capacity before starting. It uses authenticated HTTPS, checkpoints each uploaded file, reconciles interrupted uploads, and backs off on rate limiting without changing accounts or plans. Account authorization and provider plan terms remain the account holder's responsibility.
+
+The upload does not change the contract URI or deploy the site. Published metadata must use actual uploaded IPFS CIDs; do not replace it with placeholder CIDs. Keep upload credentials out of public/, archives and Git. Revoke any keys shared in chat after the upload is complete. Pinning availability must be maintained after keys are revoked.
+
+## Mint launch readiness
+The live contract is funded for 1,200 mints at the current 500,000 KABOOM price (last checked 2026-10-19). Its metadata base string was empty at launch verification. The mint interface checks the on-chain string from the non-proxy AgentX84 storage layout (slot 13) and enables mint reviews only when it matches the prepared production metadata URL. Account/network/price/funding checks remain in place.
+
+The owner must open /admin/?setup=metadata, connect the current owner wallet on Base, review the prefilled URL and sign setBaseURI. This is a separate wallet transaction. Refresh the mint page once confirmed. The website never changes the contract URI automatically or signs for the owner.

@@ -15,11 +15,11 @@ for p in s.rglob('*.html'):
   if not u or u.startswith('/collection/images/'):continue
   assert (s/u.lstrip('/')).exists(),(p,u)
 for i in range(1,1201):
- m=json.loads((s/'collection/metadata'/str(i)).read_text());assert m['image']==f'https://kaboom.thehouseofjoshi.com/collection/images/{i}.png'
+ m=json.loads((s/'collection/metadata'/str(i)).read_text());assert m['image']==f'https://kaboom.thehouseofjoshi.com/collection/images/{i}.png' or re.fullmatch(r'ipfs://[A-Za-z0-9]{32,}',m['image']), 'Invalid image URI for NFT '+str(i)
 for p in s.rglob('*'):
  assert not p.is_symlink(),p
  if p.is_file():assert p.stat().st_size<95*1024*1024,p
-print('Passed: local root links, 1,200 production metadata URLs, no symlinks and no oversized Git files.')
+print('Passed: local root links, 1,200 valid production metadata image URIs, no symlinks and no oversized Git files.')
 
 # Fitted headgear asset registration contract
 import hashlib,struct
