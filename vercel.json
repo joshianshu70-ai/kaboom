@@ -13,6 +13,15 @@
           "value": "application/json; charset=utf-8"
         }
       ]
+    },
+    {
+      "source": "/(artwork-release.json|layers.js|studio.js|collection/artwork-plan.json|collection/gallery.js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     }
   ]
 }

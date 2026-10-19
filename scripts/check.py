@@ -29,3 +29,13 @@ for name,digest in lock['files'].items():
  assert hashlib.sha256(data).hexdigest()==digest, 'Fitted asset changed; re-review registration: '+name
  assert data[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',data[16:24])==(1024,1024),name
 print('Passed: fitted body, expression and headgear registration checks.')
+
+# One registered release for the generator, gallery and mint metadata.
+release=json.loads((s/'artwork-release.json').read_text())
+for name,digest in release['files'].items():
+ assert hashlib.sha256((s/name).read_bytes()).hexdigest()==digest, 'Artwork release mismatch: '+name
+editions=json.loads((s/'collection/artwork-plan.json').read_text())['editions']
+assert [e['id'] for e in editions]==list(range(1,1201))
+for e in editions:
+ assert e['selection'] and len(e['sha256'])==64, 'Incomplete mint artwork plan'
+print('Passed: shared artwork release and all 1,200 fixed mint editions.')

@@ -1,5 +1,5 @@
 {
-  "revision": "mounted-master-v8",
+  "revision": "hat-refit-v9",
   "canvas": [
     1024,
     1024
@@ -27,9 +27,9 @@
     "assets/layers/05-expressions/smirk.png": "eb5dd7a79369337f7742ca01c923765bff1ac887cf1b14f969fa636586b16c42",
     "assets/layers/05-expressions/unbothered.png": "c2f027d8b721e798c535df8c71bbb6250eb866eed53e46f93b158a93d21f808d",
     "assets/layers/05-expressions/yeah-right.png": "150668bf273cebd0abac5faae8679cc4d7dd747e0a6dc8a9cf3639c6beafe030",
-    "assets/layers/06-headgear/beanie.png": "43e77b914ab5ee0cf0a2982f7764e6a09162828abec80742cf365c585f6fb836",
+    "assets/layers/06-headgear/beanie.png": "791005a099d3246263ef4f582025c698aa461be1dc8e38d4167177a1afd56b34",
     "assets/layers/06-headgear/black-headphones.png": "87d218151e7f3cad0f1268fcbdd1cd59d2da88703f638b78a5e4cdd75a6fbfa5",
-    "assets/layers/06-headgear/cowboy-hat.png": "a1335efe2fc7136c993efa7a3e9359bc5102d35e55b953f2aa34d3ed102d5cd2",
+    "assets/layers/06-headgear/cowboy-hat.png": "2abf6c3da014891c88c3bd54f98f8bc38521a43b2bbb953399e767a207656f15",
     "assets/layers/06-headgear/gold-headphones.png": "c7c988fa04574b196f6e6dd151b5073cdb00fbba64149777218005183e5d8ef1",
     "assets/layers/06-headgear/none.png": "265149d454822c2c808720c61f5a4317c0bfda56fc96598ea7b19b6ea52c5dd1",
     "assets/layers/06-headgear/pilot-goggles.png": "83b5ace49f407c2e57d351fb75e4480f474a4e4e7e581159004e88d79c792e3c",
