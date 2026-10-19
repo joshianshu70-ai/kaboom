@@ -15,3 +15,7 @@ All headphone colors now share the registered silver-reference silhouette, with 
 ## Clothing marks and metal buttons
 
 Chest hallmarks now apply across all six hoodie/jacket/blazer outfits, independent of hat branding. Removed all headphone earcup logos while keeping the approved reference fit. HOJ button monograms now have silver relief, contact shadows and reflections within the original metal rims. Draft metadata and observed trait ranks were regenerated; assigned rarity brackets remain unchanged.
+
+## Gold HOJ buttons
+
+The three HOJ clasp buttons now use gold rims, recessed gold faces and raised gold monograms. Placement, chains, headphone fit and clothing embroidery remain unchanged. All 179 affected draft images are rebuilt; live mint IPFS metadata remains unchanged.
