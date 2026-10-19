@@ -7,3 +7,7 @@ The draft contains 1,200 fixed editions with exact Genesis (1–120), Vanguard (
 Full PNG originals remain outside Git in outputs/agent-x84-bracketed-rarity-draft/images. Draft metadata uses relative image paths suitable for an exported images+metadata bundle; it must not be used as the on-chain base URI until all replacement images are published. Restoring Pinata upload access and coordinating the final metadata release are still required.
 
 Cowboy brim repair: missing very-dark underside pixels were restored from the original reference in two bounded regions. The 141 affected draft renders and image hashes were updated together. Fit, emblem, token traits and live mint metadata are unchanged.
+
+## HOJ hardware fit v2
+
+All headphone colors now share the registered silver-reference silhouette, with small paired gold HOJ earcup marks. Galactic Emperor has HOJ on both circular cape clasps. Royal Commander has HOJ on its largest chain-fastening medallion; chains remain intact. All 487 affected draft editions and their artwork hashes were rebuilt, including Genesis Prime #1. Integrated hardware details inherit the existing outfit/headgear traits. Published mint IPFS metadata remains unchanged.

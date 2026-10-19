@@ -65,5 +65,12 @@
     "placement_changed": false,
     "logo_changed": false,
     "published_mint_metadata_changed": false
+  },
+  "hardware_update": {
+    "affected_editions": 487,
+    "headphone_shape": "All three colors use identical reference silver alpha silhouette",
+    "hardware": "HOJ on both Emperor clasps and the largest Commander chain clasp; chains and rims retained",
+    "earcup_marks": "Paired small gold HOJ marks",
+    "live_mint_artwork_changed": false
   }
 }
