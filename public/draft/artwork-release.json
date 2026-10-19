@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-gold-buttons-v5",
+  "revision": "hoj-space-straps-v6",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -33,7 +33,7 @@
     "assets/layers/04-outfits/grey-hoodie.png": "de81a68bf219e5a4970068ab823c48f52d8633a52263a3be136111aecde8e31b",
     "assets/layers/04-outfits/samurai-armor.png": "cac4c12ac342b8c0b06542b76fcca363e28e4ba81c9440777552843f4ac26081",
     "assets/layers/04-outfits/trading-suit.png": "a11f8b6d5e8f84cfdb38f85651649c577f543bbf08468facae40af26ac306217",
-    "assets/layers/04-outfits/space-suit.png": "a799b006e588e5f807b3420678201a05d6dc99153420edd03c506974673d2f52",
+    "assets/layers/04-outfits/space-suit.png": "e627ef2b95564f21fc4215d36864d111ff74aff5bfd340bf1117f9fc344ca4f2",
     "assets/layers/04-outfits/royal-commander.png": "23acecf7e525a3f92c4b0fe4b8771c773eddb4b744033c652525e11429010f6c",
     "assets/layers/04-outfits/racing-suit.png": "13546d05e4247e2b90a4309bbebaad43fcc89606d2b3b0010960796c7edeb522",
     "assets/layers/04-outfits/cyberpunk-jacket.png": "4e50dd6c937063b0b8f2207b3f797a82ef2fd59277c529481c525f4339a0032e",

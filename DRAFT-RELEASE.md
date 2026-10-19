@@ -19,3 +19,7 @@ Chest hallmarks now apply across all six hoodie/jacket/blazer outfits, independe
 ## Gold HOJ buttons
 
 The three HOJ clasp buttons now use gold rims, recessed gold faces and raised gold monograms. Placement, chains, headphone fit and clothing embroidery remain unchanged. All 179 affected draft images are rebuilt; live mint IPFS metadata remains unchanged.
+
+## Space-suit shoulder straps
+
+Small gold HOJ marks sit on both white shoulder-strap panels immediately above the buckles, following the strap angles. Rebuilt all 84 space-suit draft editions and updated artwork hashes. Existing hardware and mint metadata remain unchanged.

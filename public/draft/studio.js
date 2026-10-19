@@ -1,4 +1,4 @@
-import {ORDER,LABELS,catalog,DEFAULT,title,clean,saved,save,render,attributes,metadata,randomSelection,collection,png,download,zip} from './layers.js?v=hoj-gold-buttons-v5';
+import {ORDER,LABELS,catalog,DEFAULT,title,clean,saved,save,render,attributes,metadata,randomSelection,collection,png,download,zip} from './layers.js?v=hoj-space-straps-v6';
 const $=id=>document.getElementById(id);let selection=saved(),previewEpoch=0,plan=[],page=1,gridEpoch=0,exporting=false,cancelled=false;const controls={};
 function status(id,text,error=false){$(id).textContent=text;$(id).classList.toggle('error',error);}
 for(const [i,k] of ORDER.entries()){const label=document.createElement('label');label.textContent=LABELS[i];const select=document.createElement('select');select.id='trait-'+k;for(const v of catalog[k])select.add(new Option(title(v),v));select.value=selection[k];label.append(select);$('traitControls').append(label);controls[k]=select;select.onchange=()=>{selection[k]=select.value;selection=clean(selection);sync();draw();};}
