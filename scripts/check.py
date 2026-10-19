@@ -55,7 +55,7 @@ if candidate.exists():
  for e in plan:
   selection=e['selection'];m=json.loads((candidate/'collection/metadata'/str(e['id'])).read_text());a={x['trait_type']:x['value'] for x in m['attributes']}
   assert a['Serial Number']==e['id'] and a['Agent Class']==e['agentClass'] and a['Rarity Tier']==e['rarity']
-  assert not(selection['10-house-branding']!='none' and selection['11-headgear-branding']!='none')
+  assert (selection['10-house-branding']!='none') == (selection['04-outfits'] in ['grey-hoodie', 'purple-hoodie', 'puffer-jacket', 'cyberpunk-jacket', 'tactical-agent', 'trading-suit'])
   assert not(selection['07-charts']!='none' and selection['09-fomo-phrases']!='none')
   assert m['image']==f"../images/{e['id']}.png",'Draft export image path mismatch'
  assert plan[0]['rarity']=='Ultra Rare Gold' and plan[0]['specialEdition']=='Genesis Prime'

@@ -33,11 +33,11 @@
   "number_one_gold_preserved": true,
   "art_direction": "HOJ intentional meme collection v1",
   "unique_compositions": 1200,
-  "single_hallmark_per_nft": true,
+  "single_hallmark_per_nft": false,
   "chart_and_phrase_never_stacked": true,
   "chart_editions": 176,
   "phrase_editions": 335,
-  "chest_hallmarks": 142,
+  "chest_hallmarks": 503,
   "headgear_hallmarks": 460,
   "gold_editions": 12,
   "founder_number_one_preserved": true,
@@ -72,5 +72,19 @@
     "hardware": "HOJ on both Emperor clasps and the largest Commander chain clasp; chains and rims retained",
     "earcup_marks": "Paired small gold HOJ marks",
     "live_mint_artwork_changed": false
+  },
+  "clothing_branding_update": {
+    "affected_editions": 640,
+    "headphone_logos": false,
+    "clothing_badges": 503,
+    "eligible_clothing": [
+      "grey-hoodie",
+      "purple-hoodie",
+      "puffer-jacket",
+      "cyberpunk-jacket",
+      "tactical-agent",
+      "trading-suit"
+    ],
+    "published_mint_changed": false
   }
 }

@@ -11,3 +11,7 @@ Cowboy brim repair: missing very-dark underside pixels were restored from the or
 ## HOJ hardware fit v2
 
 All headphone colors now share the registered silver-reference silhouette, with small paired gold HOJ earcup marks. Galactic Emperor has HOJ on both circular cape clasps. Royal Commander has HOJ on its largest chain-fastening medallion; chains remain intact. All 487 affected draft editions and their artwork hashes were rebuilt, including Genesis Prime #1. Integrated hardware details inherit the existing outfit/headgear traits. Published mint IPFS metadata remains unchanged.
+
+## Clothing marks and metal buttons
+
+Chest hallmarks now apply across all six hoodie/jacket/blazer outfits, independent of hat branding. Removed all headphone earcup logos while keeping the approved reference fit. HOJ button monograms now have silver relief, contact shadows and reflections within the original metal rims. Draft metadata and observed trait ranks were regenerated; assigned rarity brackets remain unchanged.
