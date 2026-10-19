@@ -16,9 +16,9 @@ function error(e){return e.shortMessage||e.reason||e.message||String(e);}
 async function check(){
  invalidate();
  const chain=await walletProvider.request({method:'eth_chainId'});
- const accounts=await walletProvider.request({method:'eth_accounts'});account=accounts[0]?.toLowerCase();
+ const accounts=await walletProvider.request({method:'eth_accounts'});account=accounts[0]?.toLowerCase();$('connect').textContent=account?account.slice(0,6)+'…'+account.slice(-4)+' · Connected':'Connect admin wallet';
  if(chain!=='0x2105')throw Error('Select Base mainnet (chain ID 8453) in your wallet.');
- if(account!==ADMIN)throw Error('Connect the allowed admin wallet: '+ADMIN);
+ if(account!==ADMIN)throw Error('Wallet connected: '+(account||'none')+'. Admin access requires '+ADMIN+'. Select that account in Rabby, then click Refresh data.');
  provider=new BrowserProvider(walletProvider);const signer=await provider.getSigner();
  nft=new Contract(NFT,nftABI,signer);token=new Contract(TOKEN,tokenABI,signer);
  const [nftCode,tokenCode]=await Promise.all([provider.getCode(NFT),provider.getCode(TOKEN)]);
@@ -36,7 +36,7 @@ async function check(){
 async function refresh(){try{await check();}catch(e){$('access').textContent=error(e);say(error(e));}}
 $('connect').onclick=async()=>{try{await connectWallet();if(await walletProvider.request({method:'eth_chainId'})!=='0x2105')await walletProvider.request({method:'wallet_switchEthereumChain',params:[{chainId:'0x2105'}]});await refresh();}catch(e){say(error(e));}};
 $('refresh').onclick=refresh;
-walletProvider?.on('accountsChanged',()=>{invalidate();$('access').textContent='Wallet changed. Refresh to verify access.';});
+walletProvider?.on('accountsChanged',()=>{invalidate();$('access').textContent='Wallet selection changed. Click Refresh data to verify admin access.';});
 walletProvider.on('chainChanged',()=>{invalidate();$('access').textContent='Network changed. Refresh to verify Base access.';});
 walletProvider.on('disconnect',()=>{invalidate();$('connect').textContent='Connect wallet';$('access').textContent='Wallet disconnected. Reconnect to verify admin access.';});
 function review(action,value,details){if(!ready||busy)return;pending={action,value,epoch};$('details').textContent='Network: Base mainnet (8453)\nFrom: '+ADMIN+'\nNFT contract: '+NFT+'\n'+details;$('review').hidden=false;$('review').scrollIntoView({behavior:'smooth'});}
