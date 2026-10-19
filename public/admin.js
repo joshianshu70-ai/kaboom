@@ -1,5 +1,5 @@
 import {readMetadataBaseURI,METADATA_BASE_URI} from './metadata-config.js';
-import {walletProvider,connectWallet,disconnectWallet} from './wallet.js';
+import {walletProvider,connectWallet,disconnectWallet} from './wallet.js?v=rabby-fix-1';
 import {BrowserProvider, Contract, formatUnits, parseUnits} from './vendor/ethers.min.js';
 const ADMIN='0x6736d2ea9807297f0e56967361b9410854b86a5f';
 const NFT='0x9acaa832f7c9cbabf2f001b7bb01be7b1279c226';

@@ -7,7 +7,7 @@ function sdk() {
   if (!sdkPromise) sdkPromise = import('./vendor/appkit/wallet-sdk.js?v=appkit-1').then(({ modal }) => {
     const sync = () => {
       const account = modal.getAccount('eip155') || {};
-      bridge.update(account.isConnected ? modal.getProviders().eip155 : null,
+      bridge.update(account.isConnected ? modal.getWalletProvider() : null,
         account.isConnected ? account.address : null, modal.getChainId());
     };
     modal.subscribeProviders(sync);
@@ -21,6 +21,7 @@ function sdk() {
 export async function connectWallet() {
   if (connecting) return connecting;
   const modal = await sdk();
+  if (connecting) return connecting;
   if (bridge.snapshot().connected) return [bridge.snapshot().address];
   connecting = new Promise((resolve, reject) => {
     let settled = false, opened = false, closeTimer;

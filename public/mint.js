@@ -1,5 +1,5 @@
 import {readMetadataBaseURI,METADATA_BASE_URI} from './metadata-config.js';
-import {walletProvider,connectWallet,disconnectWallet} from './wallet.js';
+import {walletProvider,connectWallet,disconnectWallet} from './wallet.js?v=rabby-fix-1';
 import {JsonRpcProvider,BrowserProvider,Contract,formatUnits} from './vendor/ethers.min.js';
 const TOKEN='0x44a76199e0bda48e715b8204c2d231dd712c2693',NFT='0x9acaa832f7c9cbabf2f001b7bb01be7b1279c226',CHAIN='0x2105';
 const ABI=['function kaboom() view returns(address)','function nftMintPrice() view returns(uint256)','function totalMinted() view returns(uint256)','function MAX_SUPPLY() view returns(uint256)','function TOTAL_PER_MINT() view returns(uint256)','function REWARD_PER_NFT() view returns(uint256)','function availableBudget() view returns(uint256)','function mintWithKaboom() returns(uint256)','function tokenURI(uint256) view returns(string)','event Transfer(address indexed from,address indexed to,uint256 indexed tokenId)'];

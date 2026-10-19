@@ -55,7 +55,7 @@ test('AppKit controller connects, cancels, disconnects and restores a session', 
   const subscribe = set => fn => { set.add(fn); return () => set.delete(fn); };
   const modal = {
     getAccount: () => address ? { address, isConnected: true } : undefined,
-    getProviders: () => ({ eip155: selected }), getChainId: () => 8453,
+    getWalletProvider: () => selected, getChainId: () => 8453,
     subscribeProviders: subscribe(providerCallbacks), subscribeAccount: subscribe(accountCallbacks),
     subscribeNetwork: () => () => {}, subscribeState: subscribe(stateCallbacks),
     async open() { openCalls++; open = true; stateCallbacks.forEach(fn => fn({ open })); },
@@ -88,4 +88,11 @@ test('AppKit controller connects, cancels, disconnects and restores a session', 
   assert.equal(openCalls, 2, 'restoration must not reopen the modal');
   assert.equal(selected.calls.length, 0, 'connection must not request a signature or transaction');
   delete globalThis.__walletTestModal;
+});
+
+test('provider getter matches the installed AppKit SDK, including restored sessions', async () => {
+  const {AppKit}=await import('@reown/appkit');
+  assert.equal(typeof AppKit.prototype.getWalletProvider,'function');
+  const controller=await readFile(new URL('../public/wallet.js',import.meta.url),'utf8');
+  assert.ok(!controller.includes('.getProviders('),'Do not use a getter absent from the pinned SDK');
 });
