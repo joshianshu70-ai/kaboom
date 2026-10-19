@@ -1,0 +1,15 @@
+{
+  "canvas": [
+    1024,
+    1024
+  ],
+  "reference_canvas": [
+    1254,
+    1254
+  ],
+  "uniform_reference_scale": 0.8165869218500797,
+  "bounding_box_repositioning": false,
+  "earcup_resizing": false,
+  "removed_detached_components": 4,
+  "published": false
+}

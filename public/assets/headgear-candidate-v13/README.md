@@ -1,0 +1,1 @@
+Headphones extracted directly from user reference. Exact source positions retained; full reference canvas uniformly scaled from 1254 to 1024 pixels. No bounding-box crop, separate cup rescaling or redesigned headband. Transparent PNG layer; production IPFS publication remains pending restored upload access.
