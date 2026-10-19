@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-astronaut-straps-v8",
+  "revision": "hoj-moon-chest-v9",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -24,7 +24,7 @@
     "assets/layers/02-auras/cyan.png": "8daa8c74bdf445d7f107c65a97fb6c458737b82ca012b7712962253b4013bf2a",
     "assets/layers/02-auras/none.png": "265149d454822c2c808720c61f5a4317c0bfda56fc96598ea7b19b6ea52c5dd1",
     "assets/layers/02-auras/gold.png": "b6862f4a8d23af5dcf357e5bd40c7163242a761ad403ca0d4d396a1301588006",
-    "assets/layers/04-outfits/moon-explorer.png": "13045fadb64c421e0617329cf7c5afcdd9236d621484230f94fbcc681c0bd213",
+    "assets/layers/04-outfits/moon-explorer.png": "fbe504cedaefe94190a5362b7a6637fa334cb8d4595b176d1f643e3f83330df8",
     "assets/layers/04-outfits/astronaut.png": "44e50a5e71bab911559c497065e00ba98664717326da47263990eed3f3566cba",
     "assets/layers/04-outfits/tactical-agent.png": "50ef731865478759ee5f9f720dcb80a2043a69dec2deb2930bb193d19e92f888",
     "assets/layers/04-outfits/galactic-emperor.png": "2dd54cb21f07961ac949b095fcdb04723ab9f712d0f3f9a531a512fd7b613011",

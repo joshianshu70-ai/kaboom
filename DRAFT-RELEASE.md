@@ -31,3 +31,7 @@ Replaced the silver tapered pull with a shaped gold HOJ monogram connected to th
 ## Astronaut shoulder straps
 
 Added paired gold HOJ marks to the white strap panels above both astronaut buckles, following the strap angles. Rebuilt all affected draft editions and refreshed their artwork hashes. Live mint metadata remains unchanged.
+
+## Moon Explorer chest panel
+
+Added a small centered gold HOJ mark inside the blue chest panel, clear of the orange rails and silver border. Rebuilt all affected draft images and refreshed hashes. Live mint metadata remains unchanged.
