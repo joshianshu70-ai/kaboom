@@ -35,3 +35,7 @@ Added paired gold HOJ marks to the white strap panels above both astronaut buckl
 ## Moon Explorer chest panel
 
 Added a small centered gold HOJ mark inside the blue chest panel, clear of the orange rails and silver border. Rebuilt all affected draft images and refreshed hashes. Live mint metadata remains unchanged.
+
+## Restore racing-suit zipper
+
+Removed the HOJ-shaped zipper pull and restored the original racing-suit zipper from the preserved source layer. Rebuilt all 75 affected draft editions. Other outfit logos remain unchanged.
