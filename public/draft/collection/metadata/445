@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #445",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/445.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mars Outpost"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tactical Agent"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Unbothered"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Gold Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "None"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 445
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Diamond Guard"
+    }
+  ],
+  "properties": {
+    "edition": 445,
+    "edition_size": 1200,
+    "rarity_score": 34.507091,
+    "rarity_rank": 6,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

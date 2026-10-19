@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #427",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/427.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Moon Base"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Classic Green"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Astronaut"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fomo Eyes"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Black Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "Wen Moon"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 427
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Moon Mission"
+    }
+  ],
+  "properties": {
+    "edition": 427,
+    "edition_size": 1200,
+    "rarity_score": 24.541547,
+    "rarity_rank": 380,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

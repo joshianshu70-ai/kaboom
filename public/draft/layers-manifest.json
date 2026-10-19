@@ -1,0 +1,117 @@
+{
+  "01-backgrounds": [
+    "alien-arcade",
+    "asteroid-field",
+    "cosmic-temple",
+    "deep-space",
+    "emerald-portal",
+    "lunar-penthouse",
+    "mars-outpost",
+    "moon-base",
+    "neon-city",
+    "purple-nebula",
+    "royal-starship",
+    "trading-command"
+  ],
+  "02-auras": [
+    "crimson",
+    "cyan",
+    "emerald",
+    "gold",
+    "none",
+    "silver",
+    "violet"
+  ],
+  "03-base-bodies": [
+    "classic-green",
+    "cosmic-purple",
+    "emerald",
+    "lime",
+    "mint",
+    "silver",
+    "ultra-rare-gold"
+  ],
+  "04-outfits": [
+    "astronaut",
+    "cyberpunk-jacket",
+    "galactic-emperor",
+    "grey-hoodie",
+    "moon-explorer",
+    "pirate-captain",
+    "puffer-jacket",
+    "purple-hoodie",
+    "racing-suit",
+    "royal-commander",
+    "samurai-armor",
+    "space-suit",
+    "tactical-agent",
+    "trading-suit"
+  ],
+  "05-expressions": [
+    "cosmic-rage",
+    "determined",
+    "diamond-focus",
+    "fomo-eyes",
+    "panic-eyes",
+    "rolled-eyes",
+    "sleepy-trader",
+    "smirk",
+    "unbothered",
+    "yeah-right"
+  ],
+  "06-headgear": [
+    "beanie",
+    "black-headphones",
+    "cowboy-hat",
+    "gold-headphones",
+    "none",
+    "pilot-goggles",
+    "silver-headphones",
+    "space-helmet",
+    "trucker-cap"
+  ],
+  "07-charts": [
+    "bull-flag",
+    "cup-and-handle",
+    "death-cross",
+    "double-bottom",
+    "golden-cross",
+    "head-and-shoulders",
+    "none"
+  ],
+  "09-fomo-phrases": [
+    "any-moment-now",
+    "bullish",
+    "buy-the-dip",
+    "diamond-hands",
+    "diamond-paws",
+    "dyor",
+    "few-understand",
+    "generational-entry",
+    "gm",
+    "hodl",
+    "iykyk",
+    "lambo",
+    "lfg",
+    "nfa",
+    "ngmi",
+    "none",
+    "probably-nothing",
+    "send-it",
+    "still-early",
+    "to-the-moon",
+    "trust-me-bro",
+    "up-only",
+    "wagmi",
+    "wen-lambo",
+    "wen-moon"
+  ],
+  "10-house-branding": [
+    "none",
+    "gold-embroidered-hoj"
+  ],
+  "11-headgear-branding": [
+    "none",
+    "gold-embroidered-hoj"
+  ]
+}

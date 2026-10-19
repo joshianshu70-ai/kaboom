@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #86",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/86.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Lunar Penthouse"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Purple Hoodie"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Yeah Right"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Silver Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "Probably Nothing"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 86
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Reply Guy"
+    }
+  ],
+  "properties": {
+    "edition": 86,
+    "edition_size": 1200,
+    "rarity_score": 27.169414,
+    "rarity_rank": 159,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

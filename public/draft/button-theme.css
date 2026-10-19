@@ -1,0 +1,15 @@
+/* Shared action colors, loaded after page styles. */
+:root{--action-bg:#b8f64d;--action-text:#142006;--action-hover:#ceff7b;--action-border:#b8f64d;--secondary-bg:#142013;--secondary-text:#edf4df;--secondary-border:#71855c;--focus-ring:#f2cf7b}
+body a.button.dark,body button.button.dark,.admin-controls button:not(#cancel){background:var(--action-bg);color:var(--action-text);border-color:var(--action-border);text-decoration:none;box-shadow:none}
+body a.button.dark:hover,body button.button.dark:hover:not(:disabled),.admin-controls button:not(#cancel):hover:not(:disabled){background:var(--action-hover);color:#101a05;border-color:var(--action-hover);box-shadow:0 0 20px #b8f64d20}
+body a.button.dark:active,body button.button.dark:active:not(:disabled),.admin-controls button:not(#cancel):active:not(:disabled){background:#a3dd3b;color:#101a05}
+body a.button.outline,body button.button.outline,.admin-controls button#cancel{background:var(--secondary-bg);color:var(--secondary-text);border-color:var(--secondary-border);text-decoration:none;box-shadow:none}
+body a.button.outline:hover,body button.button.outline:hover:not(:disabled),.admin-controls button#cancel:hover:not(:disabled){background:#25351e;color:#fff8e7;border-color:#b5cb92;box-shadow:none}
+body a.button.outline:active,body button.button.outline:active:not(:disabled){background:#314527;color:#fff8e7}
+body button.button:disabled,.admin-controls button:disabled{opacity:1;background:#293126;color:#b4bdab;border-color:#4c5843;box-shadow:none;cursor:not-allowed;transform:none}
+body a.button:focus-visible,body button.button:focus-visible,.admin-controls button:focus-visible,body .header-menu:focus-visible,body a.hoj-footer-cta:focus-visible{outline:3px solid var(--focus-ring);outline-offset:4px}
+body .site-header .header-menu{background:#142013;border-color:#71855c;color:#edf4df;box-shadow:none}
+body .site-header .header-menu:hover{background:#25351e;border-color:#b5cb92}.site-header .header-menu span{background:#edf4df}
+body .hoj-footer a.hoj-footer-cta{background:#201b10;color:#f2d18a;border:1px solid #b99a50;text-decoration:none}
+body .hoj-footer a.hoj-footer-cta:hover{background:#332a16;color:#ffe4a7;border-color:#e4c16c}
+@media(prefers-reduced-motion:reduce){body .button{transition:none}body .button:hover{transform:none}}

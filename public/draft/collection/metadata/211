@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #211",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/211.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Space"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Grey Hoodie"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Rolled Eyes"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Beanie"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "Probably Nothing"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 211
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Unbothered Holder"
+    }
+  ],
+  "properties": {
+    "edition": 211,
+    "edition_size": 1200,
+    "rarity_score": 25.189037,
+    "rarity_rank": 330,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

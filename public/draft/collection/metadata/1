@@ -1,0 +1,79 @@
+{
+  "name": "Agent X-84 #1 \u2014 Genesis Prime",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/1.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Royal Starship"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Puffer Jacket"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Gold Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "None"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Special Edition",
+      "value": "Genesis Prime"
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Genesis Prime"
+    }
+  ],
+  "properties": {
+    "edition": 1,
+    "edition_size": 1200,
+    "rarity_score": 44.032916,
+    "rarity_rank": 1,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

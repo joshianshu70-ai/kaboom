@@ -1,0 +1,47 @@
+{
+  "editions": 1200,
+  "unique_source_editions": 1200,
+  "tier_totals": {
+    "Uncommon": 360,
+    "Rare": 180,
+    "Common": 600,
+    "Ultra Rare Gold": 12,
+    "Epic": 48
+  },
+  "gold_per_bracket": {
+    "Genesis": 6,
+    "Vanguard": 4,
+    "Main Collection": 2
+  },
+  "branding_preserved": true,
+  "published": false,
+  "images_mapped_and_hash_verified": 1200,
+  "metadata_verified": 1200,
+  "badge_editions": 142,
+  "live_metadata_modified": false,
+  "number_one_gold": true,
+  "number_one_name": "Genesis Prime",
+  "number_one_observed_visual_rank": 1,
+  "bracket_quotas_preserved": true,
+  "headgear_badges": {
+    "trucker-cap": 163,
+    "beanie": 156,
+    "cowboy-hat": 141
+  },
+  "headgear_badge_editions": 460,
+  "number_one_visual_rank": 1,
+  "number_one_gold_preserved": true,
+  "art_direction": "HOJ intentional meme collection v1",
+  "unique_compositions": 1200,
+  "single_hallmark_per_nft": true,
+  "chart_and_phrase_never_stacked": true,
+  "chart_editions": 176,
+  "phrase_editions": 335,
+  "chest_hallmarks": 142,
+  "headgear_hallmarks": 460,
+  "gold_editions": 12,
+  "founder_number_one_preserved": true,
+  "branding_policy": "One subtle hallmark on approved headgear, otherwise eligible hoodie/puffer chest; no duplicates.",
+  "images_rendered_and_hash_verified": 1200,
+  "helmet_phrase_overlap": 0
+}

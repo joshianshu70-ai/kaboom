@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #459",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/459.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Moon Base"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Racing Suit"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Black Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "Still Early"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 459
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Lambo Dreamer"
+    }
+  ],
+  "properties": {
+    "edition": 459,
+    "edition_size": 1200,
+    "rarity_score": 25.69323,
+    "rarity_rank": 277,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}

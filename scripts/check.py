@@ -39,3 +39,24 @@ assert [e['id'] for e in editions]==list(range(1,1201))
 for e in editions:
  assert e['selection'] and len(e['sha256'])==64, 'Incomplete mint artwork plan'
 print('Passed: shared artwork release and all 1,200 fixed mint editions.')
+
+# The admin studio previews an isolated unpublished release, never live mint metadata.
+from collections import Counter
+candidate=s/'draft'
+if candidate.exists():
+ release=json.loads((candidate/'artwork-release.json').read_text())
+ for name,digest in release['files'].items():
+  assert hashlib.sha256((candidate/name).read_bytes()).hexdigest()==digest,'Draft asset mismatch: '+name
+ plan=json.loads((candidate/'collection/artwork-plan.json').read_text())['editions']
+ config=json.loads((candidate/'rarity-config.json').read_text())
+ assert [e['id'] for e in plan]==list(range(1,1201))
+ for b in config['brackets']:
+  assert Counter(e['rarity'] for e in plan if b['start']<=e['id']<=b['end'])==dict(zip(config['tiers'],b['counts']))
+ for e in plan:
+  selection=e['selection'];m=json.loads((candidate/'collection/metadata'/str(e['id'])).read_text());a={x['trait_type']:x['value'] for x in m['attributes']}
+  assert a['Serial Number']==e['id'] and a['Agent Class']==e['agentClass'] and a['Rarity Tier']==e['rarity']
+  assert not(selection['10-house-branding']!='none' and selection['11-headgear-branding']!='none')
+  assert not(selection['07-charts']!='none' and selection['09-fomo-phrases']!='none')
+  assert m['image']==f"../images/{e['id']}.png",'Draft export image path mismatch'
+ assert plan[0]['rarity']=='Ultra Rare Gold' and plan[0]['specialEdition']=='Genesis Prime'
+ print('Passed: isolated draft assets, all bracket quotas, Genesis Prime #1 and 1,200 matching draft metadata files.')

@@ -1,0 +1,75 @@
+{
+  "name": "Agent X-84 #337",
+  "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
+  "image": "../images/337.png",
+  "external_url": "https://thehouseofjoshi.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Lunar Penthouse"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Classic Green"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Commander"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Diamond Focus"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Pilot Goggles"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "Cup And Handle"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "None"
+    },
+    {
+      "trait_type": "Edition Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 337
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Whale Council"
+    }
+  ],
+  "properties": {
+    "edition": 337,
+    "edition_size": 1200,
+    "rarity_score": 24.089283,
+    "rarity_rank": 431,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
+  }
+}
