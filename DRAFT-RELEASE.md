@@ -43,3 +43,7 @@ Removed the HOJ-shaped zipper pull and restored the original racing-suit zipper 
 ## Unbranded cyberpunk jacket
 
 Removed the cyberpunk jacket chest mark from the fixed draft editions and builder policy. Metadata and observed visual ranks reflect the removal. Other clothing and headgear logos remain unchanged.
+
+## Tonal red armour shoulder marks
+
+Added paired HOJ marks in the same red family as the samurai armour, on the red shoulder panels above their buckles. Marks follow the panel angles. Rebuilt all 94 affected draft editions. Live mint metadata remains unchanged.
