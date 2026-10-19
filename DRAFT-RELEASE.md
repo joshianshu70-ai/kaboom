@@ -39,3 +39,7 @@ Added a small centered gold HOJ mark inside the blue chest panel, clear of the o
 ## Restore racing-suit zipper
 
 Removed the HOJ-shaped zipper pull and restored the original racing-suit zipper from the preserved source layer. Rebuilt all 75 affected draft editions. Other outfit logos remain unchanged.
+
+## Unbranded cyberpunk jacket
+
+Removed the cyberpunk jacket chest mark from the fixed draft editions and builder policy. Metadata and observed visual ranks reflect the removal. Other clothing and headgear logos remain unchanged.

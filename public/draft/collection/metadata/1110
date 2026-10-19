@@ -42,7 +42,7 @@
     },
     {
       "trait_type": "House Branding",
-      "value": "Gold Embroidered HOJ"
+      "value": "None"
     },
     {
       "trait_type": "Agent Class",
@@ -68,8 +68,8 @@
   "properties": {
     "edition": 1110,
     "edition_size": 1200,
-    "rarity_score": 20.930154,
-    "rarity_rank": 846,
+    "rarity_score": 20.2917,
+    "rarity_rank": 941,
     "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

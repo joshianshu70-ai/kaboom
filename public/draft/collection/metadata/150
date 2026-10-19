@@ -68,8 +68,8 @@
   "properties": {
     "edition": 150,
     "edition_size": 1200,
-    "rarity_score": 25.634181,
-    "rarity_rank": 322,
+    "rarity_score": 25.904692,
+    "rarity_rank": 290,
     "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }
