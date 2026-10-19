@@ -51,3 +51,7 @@ Added paired HOJ marks in the same red family as the samurai armour, on the red 
 ## Unbranded tactical jacket
 
 Removed the tactical jacket chest logo from the builder policy and fixed draft editions. Metadata and observed visual ranks reflect the removal. Other outfit logos remain unchanged.
+
+## Trading suit shirt logo
+
+Moved the existing gold HOJ hallmark from the teal jacket chest to the centre of the pink inner shirt. The full-canvas branding layer is shared by the builder and fixed editions. Live mint metadata remains unchanged.

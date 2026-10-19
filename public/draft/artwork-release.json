@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-tactical-unbranded-v13",
+  "revision": "hoj-centered-shirt-v14",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -192,6 +192,6 @@
     "assets/layers/05-expressions/emerald/fomo-eyes.png": "bb838a6c0e7e09ab99586ecd0c814bdecc239da23ee13dca7e9b02be9ff79d0e",
     "assets/layers/10-house-branding/gold-embroidered-hoj--cyberpunk-jacket.png": "6bdb5cf7d514f3bd1503a362b3591a33a6eb8a0670e8fdfad9dd7581f8e85f4a",
     "assets/layers/10-house-branding/gold-embroidered-hoj--tactical-agent.png": "e6d00ff4d401f5a2809841973c21a1a5266099a67d130e29649c6bd37e387b99",
-    "assets/layers/10-house-branding/gold-embroidered-hoj--trading-suit.png": "81ec2eaca327ed7997c368a9184d70d5ae739af8ddf290b8420e5e99df8cabb5"
+    "assets/layers/10-house-branding/gold-embroidered-hoj--trading-suit.png": "7f88e851b884171583ab6e50329a6f04e420e82e641962e018f4faf3ccb9e58d"
   }
 }
