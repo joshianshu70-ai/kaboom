@@ -75,3 +75,7 @@ Changed the cyberpunk purple-inset mark and both samurai shoulder marks to gold 
 ## Gold collar-strip mark
 
 Changed the centred tactical grey collar-strip mark to gold, contained inside the narrow silver strip. Existing buckle marks remain intact. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
+
+## Clean tactical collar
+
+Removed the small gold mark from the tactical grey collar strip by restoring its original pixels. Buckle marks remain unchanged. Rebuilt all 86 tactical draft editions.

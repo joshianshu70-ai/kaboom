@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-gold-collar-v19",
+  "revision": "hoj-collar-clean-v20",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -26,7 +26,7 @@
     "assets/layers/02-auras/gold.png": "b6862f4a8d23af5dcf357e5bd40c7163242a761ad403ca0d4d396a1301588006",
     "assets/layers/04-outfits/moon-explorer.png": "fbe504cedaefe94190a5362b7a6637fa334cb8d4595b176d1f643e3f83330df8",
     "assets/layers/04-outfits/astronaut.png": "44e50a5e71bab911559c497065e00ba98664717326da47263990eed3f3566cba",
-    "assets/layers/04-outfits/tactical-agent.png": "6d92b5f75a2a1282c209ec835673b5ed67c744727760cb850652dc02c83f6929",
+    "assets/layers/04-outfits/tactical-agent.png": "892408a8d8f783737abd21c1a21ef0c3f4c9d5f657d1bfb415021fcf0250d393",
     "assets/layers/04-outfits/galactic-emperor.png": "2dd54cb21f07961ac949b095fcdb04723ab9f712d0f3f9a531a512fd7b613011",
     "assets/layers/04-outfits/purple-hoodie.png": "9acb7adc93e1b4efcaa38612aac05efa177b9ab057263893dafa2b835ba85547",
     "assets/layers/04-outfits/puffer-jacket.png": "ecb3930f1af06d821c0322a99581346dc0a6009a3e14c0e7e5e1f01a3c4cb649",
