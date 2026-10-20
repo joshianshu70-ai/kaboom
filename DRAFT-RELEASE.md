@@ -71,3 +71,7 @@ Changed the six HOJ button reliefs on the pirate coat to gold while preserving t
 ## Gold cyberpunk and samurai marks
 
 Changed the cyberpunk purple-inset mark and both samurai shoulder marks to gold at their approved fitted positions. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
+
+## Gold collar-strip mark
+
+Changed the centred tactical grey collar-strip mark to gold, contained inside the narrow silver strip. Existing buckle marks remain intact. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
