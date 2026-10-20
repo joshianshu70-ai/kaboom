@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #459",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeie4aeunrrm3mp5xkjqnfdkmmntnfyua4dospv5mhtejtg4srctjve",
+  "image": "ipfs://bafybeihnor46m36emmx5vpqct6liy23bsm6dfapgd62eeqkgfhgref2qwq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Mars Outpost"
+      "value": "Moon Base"
     },
     {
       "trait_type": "Aura",
@@ -14,11 +14,11 @@
     },
     {
       "trait_type": "Body",
-      "value": "Cosmic Purple"
+      "value": "Silver"
     },
     {
       "trait_type": "Outfit",
-      "value": "Tactical Agent"
+      "value": "Racing Suit"
     },
     {
       "trait_type": "Expression",
@@ -34,18 +34,42 @@
     },
     {
       "trait_type": "Phrase",
-      "value": "None"
+      "value": "Still Early"
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Rare"
+      "value": "Epic"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 459
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Lambo Dreamer"
     }
   ],
   "properties": {
     "edition": 459,
     "edition_size": 1200,
-    "rarity_score": 19.009078,
-    "rarity_rank": 1124,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 25.977141,
+    "rarity_rank": 277,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

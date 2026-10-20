@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #602",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeie7f7b4n6i4frpjya2gywmazlslf5dytebevguftgxkgqqcjlvnlu",
+  "image": "ipfs://bafybeidl4gf6p2i5hoblvexd45olwfn2c34x4jqx3nfl3dgf335puwxpqi",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -18,19 +18,19 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Astronaut"
+      "value": "Purple Hoodie"
     },
     {
       "trait_type": "Expression",
-      "value": "Sleepy Trader"
+      "value": "Unbothered"
     },
     {
       "trait_type": "Headgear",
-      "value": "Space Helmet"
+      "value": "Pilot Goggles"
     },
     {
       "trait_type": "Chart",
-      "value": "None"
+      "value": "Cup And Handle"
     },
     {
       "trait_type": "Phrase",
@@ -39,13 +39,37 @@
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 602
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Reply Guy"
     }
   ],
   "properties": {
     "edition": 602,
     "edition_size": 1200,
-    "rarity_score": 20.497488,
-    "rarity_rank": 1018,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 25.927563,
+    "rarity_rank": 283,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

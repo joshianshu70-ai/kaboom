@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #175",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeia36coy2tobzgewk36wqeqnq4h6vm446zdlrzgux6tus7jp62wv3i",
+  "image": "ipfs://bafybeiglv523x2f4z44dp6ea744q2phlivcry4dah25mrdydm6jkfg7wxe",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Aura",
-      "value": "Cyan"
+      "value": "None"
     },
     {
       "trait_type": "Body",
@@ -18,11 +18,11 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Grey Hoodie"
+      "value": "Royal Commander"
     },
     {
       "trait_type": "Expression",
-      "value": "Determined"
+      "value": "Smirk"
     },
     {
       "trait_type": "Headgear",
@@ -34,18 +34,42 @@
     },
     {
       "trait_type": "Phrase",
-      "value": "To The Moon"
+      "value": "None"
     },
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 175
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Whale Council"
     }
   ],
   "properties": {
     "edition": 175,
     "edition_size": 1200,
-    "rarity_score": 26.268134,
-    "rarity_rank": 277,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 19.593744,
+    "rarity_rank": 1008,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

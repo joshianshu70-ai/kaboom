@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #1095",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeig7wzr2v6oufjvht7vmx2vjhxiyjuvx27nhnosfe3kgdwyj2w7cge",
+  "image": "ipfs://bafybeigujy26br5fc2m5e2nkaexcgjywbuer4eosujhjtodixd5syrweqq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -14,15 +14,15 @@
     },
     {
       "trait_type": "Body",
-      "value": "Classic Green"
+      "value": "Cosmic Purple"
     },
     {
       "trait_type": "Outfit",
-      "value": "Space Suit"
+      "value": "Pirate Captain"
     },
     {
       "trait_type": "Expression",
-      "value": "Rolled Eyes"
+      "value": "Smirk"
     },
     {
       "trait_type": "Headgear",
@@ -30,7 +30,7 @@
     },
     {
       "trait_type": "Chart",
-      "value": "None"
+      "value": "Head And Shoulders"
     },
     {
       "trait_type": "Phrase",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Common"
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 1095
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Liquidity Pirate"
     }
   ],
   "properties": {
     "edition": 1095,
     "edition_size": 1200,
-    "rarity_score": 18.762901,
-    "rarity_rank": 1146,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 25.341561,
+    "rarity_rank": 338,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

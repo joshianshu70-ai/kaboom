@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #378",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeibqcmqzohlk275vvgoukgxl42jyox5bclk7h7skphcwxwkpqf5lfi",
+  "image": "ipfs://bafybeia3dis5bha2agi23p3dn2z4tsn6ubd3sfcxm35g4x4autuhumbffq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Nebula"
+      "value": "Moon Base"
     },
     {
       "trait_type": "Aura",
@@ -18,7 +18,7 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Moon Explorer"
+      "value": "Racing Suit"
     },
     {
       "trait_type": "Expression",
@@ -30,22 +30,46 @@
     },
     {
       "trait_type": "Chart",
-      "value": "Golden Cross"
+      "value": "Cup And Handle"
     },
     {
       "trait_type": "Phrase",
-      "value": "Gm"
+      "value": "None"
     },
     {
       "trait_type": "Edition Tier",
       "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 378
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Lambo Dreamer"
     }
   ],
   "properties": {
     "edition": 378,
     "edition_size": 1200,
-    "rarity_score": 26.499881,
-    "rarity_rank": 237,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 25.342274,
+    "rarity_rank": 337,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

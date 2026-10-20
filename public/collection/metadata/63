@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #63",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeigwzo6imvrfgxhn3ty7y5cx2gavdjzqbz6o7f4y2fopxnw3zobjua",
+  "image": "ipfs://bafybeibaxwwkg7fgyapisr67qfli5rx73rut3p4vzdo4ifo4fwfut55fdq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "trait_type": "Body",
-      "value": "Mint"
+      "value": "Emerald"
     },
     {
       "trait_type": "Outfit",
@@ -22,11 +22,11 @@
     },
     {
       "trait_type": "Expression",
-      "value": "Cosmic Rage"
+      "value": "Diamond Focus"
     },
     {
       "trait_type": "Headgear",
-      "value": "Beanie"
+      "value": "None"
     },
     {
       "trait_type": "Chart",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Common"
+      "value": "Rare"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 63
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Whale Council"
     }
   ],
   "properties": {
     "edition": 63,
     "edition_size": 1200,
-    "rarity_score": 18.197572,
-    "rarity_rank": 1181,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 18.419036,
+    "rarity_rank": 1121,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

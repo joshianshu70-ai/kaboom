@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #986",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeiamnew67766m7xluyk362wydkjb7uyj7bevjth2wohtz33hziajca",
+  "image": "ipfs://bafybeia3ranumti4sutbbpa54eil5rmsvjnavkzntyoqr2zjf27gnf5uai",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Emerald Portal"
+      "value": "Royal Starship"
     },
     {
       "trait_type": "Aura",
@@ -18,15 +18,15 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Racing Suit"
+      "value": "Pirate Captain"
     },
     {
       "trait_type": "Expression",
-      "value": "Smirk"
+      "value": "Panic Eyes"
     },
     {
       "trait_type": "Headgear",
-      "value": "Beanie"
+      "value": "Pilot Goggles"
     },
     {
       "trait_type": "Chart",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Epic"
+      "value": "Rare"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 986
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Liquidity Pirate"
     }
   ],
   "properties": {
     "edition": 986,
     "edition_size": 1200,
-    "rarity_score": 19.963781,
-    "rarity_rank": 1054,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 23.007479,
+    "rarity_rank": 569,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

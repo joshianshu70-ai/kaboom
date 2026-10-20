@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #814",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeid52nzgcr4cpb3mcauewvk256dohagot7zv55l63xa5ptmivbu7ra",
+  "image": "ipfs://bafybeifvajwtcgkizadtco3hhwskow6ebgsjo2slw55vrwhg5vt67nsltq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Emerald Portal"
+      "value": "Cosmic Temple"
     },
     {
       "trait_type": "Aura",
@@ -18,7 +18,7 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Royal Commander"
+      "value": "Samurai Armor"
     },
     {
       "trait_type": "Expression",
@@ -26,11 +26,11 @@
     },
     {
       "trait_type": "Headgear",
-      "value": "Pilot Goggles"
+      "value": "Cowboy Hat"
     },
     {
       "trait_type": "Chart",
-      "value": "Bull Flag"
+      "value": "None"
     },
     {
       "trait_type": "Phrase",
@@ -39,13 +39,37 @@
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 814
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Diamond Guard"
     }
   ],
   "properties": {
     "edition": 814,
     "edition_size": 1200,
-    "rarity_score": 21.393189,
-    "rarity_rank": 908,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 24.974565,
+    "rarity_rank": 366,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

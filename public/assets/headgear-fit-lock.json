@@ -1,5 +1,5 @@
 {
-  "revision": "hat-refit-v9",
+  "revision": "published-bracketed-v21",
   "canvas": [
     1024,
     1024
@@ -28,12 +28,12 @@
     "assets/layers/05-expressions/unbothered.png": "c2f027d8b721e798c535df8c71bbb6250eb866eed53e46f93b158a93d21f808d",
     "assets/layers/05-expressions/yeah-right.png": "150668bf273cebd0abac5faae8679cc4d7dd747e0a6dc8a9cf3639c6beafe030",
     "assets/layers/06-headgear/beanie.png": "791005a099d3246263ef4f582025c698aa461be1dc8e38d4167177a1afd56b34",
-    "assets/layers/06-headgear/black-headphones.png": "87d218151e7f3cad0f1268fcbdd1cd59d2da88703f638b78a5e4cdd75a6fbfa5",
-    "assets/layers/06-headgear/cowboy-hat.png": "2abf6c3da014891c88c3bd54f98f8bc38521a43b2bbb953399e767a207656f15",
-    "assets/layers/06-headgear/gold-headphones.png": "c7c988fa04574b196f6e6dd151b5073cdb00fbba64149777218005183e5d8ef1",
+    "assets/layers/06-headgear/black-headphones.png": "a31e77244916acaa336a6aef45152244a4d376fab50903b101f1d9586920ec2a",
+    "assets/layers/06-headgear/cowboy-hat.png": "e1131e77d02bb6b516b5f54f6e303e92bc2818d821f2135816b9ea8dfeead1d0",
+    "assets/layers/06-headgear/gold-headphones.png": "c7a4d85300f38fb59603e8a245a1cb5b4800344ea6fcf6975d87cf620caa3687",
     "assets/layers/06-headgear/none.png": "265149d454822c2c808720c61f5a4317c0bfda56fc96598ea7b19b6ea52c5dd1",
     "assets/layers/06-headgear/pilot-goggles.png": "83b5ace49f407c2e57d351fb75e4480f474a4e4e7e581159004e88d79c792e3c",
-    "assets/layers/06-headgear/silver-headphones.png": "7e1e30e60434a000ab9d961a9863a394eaf3157fa27364c41da63d978162a5b0",
+    "assets/layers/06-headgear/silver-headphones.png": "6b876bb2f400de0774e068f17fbb69c5ea3c70598c147e3dce7ffae2b41fd134",
     "assets/layers/06-headgear/space-helmet.png": "e8bb040de55d2d31a8ff1de8af6d338c2f9471afa3ffe17612d5e41ed8831964",
     "assets/layers/06-headgear/trucker-cap.png": "1f4d4588693fb74f2a6114a1e982f078a15ef32dfb7addd0e38a589c9e1008e8"
   }

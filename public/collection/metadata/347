@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #347",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeicdw574zg2swm4tgxgb3zeuo4jnvaf7ok5ayjcuw7ks2sceln7xea",
+  "image": "ipfs://bafybeieto3npcx2t2zcaswdpdwjwhx6x4czjx4saqxuovl4lf77dfz2ix4",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -10,23 +10,23 @@
     },
     {
       "trait_type": "Aura",
-      "value": "Violet"
+      "value": "None"
     },
     {
       "trait_type": "Body",
-      "value": "Emerald"
+      "value": "Mint"
     },
     {
       "trait_type": "Outfit",
-      "value": "Grey Hoodie"
+      "value": "Tactical Agent"
     },
     {
       "trait_type": "Expression",
-      "value": "Smirk"
+      "value": "Determined"
     },
     {
       "trait_type": "Headgear",
-      "value": "Cowboy Hat"
+      "value": "Pilot Goggles"
     },
     {
       "trait_type": "Chart",
@@ -39,13 +39,37 @@
     {
       "trait_type": "Edition Tier",
       "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 347
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Diamond Guard"
     }
   ],
   "properties": {
     "edition": 347,
     "edition_size": 1200,
-    "rarity_score": 21.757589,
-    "rarity_rank": 841,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 17.971537,
+    "rarity_rank": 1167,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

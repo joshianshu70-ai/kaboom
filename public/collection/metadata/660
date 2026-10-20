@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #660",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeigdvuedxvx3urb7tb777ddnlzmeskl5dww5kqcyvbxiahcf2k3vri",
+  "image": "ipfs://bafybeibu7z6vqeaa54rwiqncpbbb5hlirc4s2xssb7p7zzmkta5ano3ufy",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Cosmic Temple"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Aura",
@@ -18,19 +18,19 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Royal Commander"
+      "value": "Astronaut"
     },
     {
       "trait_type": "Expression",
-      "value": "Rolled Eyes"
+      "value": "Determined"
     },
     {
       "trait_type": "Headgear",
-      "value": "None"
+      "value": "Space Helmet"
     },
     {
       "trait_type": "Chart",
-      "value": "Golden Cross"
+      "value": "None"
     },
     {
       "trait_type": "Phrase",
@@ -39,13 +39,37 @@
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 660
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Moon Mission"
     }
   ],
   "properties": {
     "edition": 660,
     "edition_size": 1200,
-    "rarity_score": 20.102654,
-    "rarity_rank": 1047,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 19.432639,
+    "rarity_rank": 1024,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

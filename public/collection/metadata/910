@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #910",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeiaroxxgm2hszr2jhoa44f3x2cuaie264iawhooynm3qdrhwnust74",
+  "image": "ipfs://bafybeidm7wh56iwqpcdpfnta6htlr7ah232g24ifgs63ryzj7vpdiwqleq",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Royal Starship"
+      "value": "Lunar Penthouse"
     },
     {
       "trait_type": "Aura",
@@ -18,7 +18,7 @@
     },
     {
       "trait_type": "Outfit",
-      "value": "Tactical Agent"
+      "value": "Trading Suit"
     },
     {
       "trait_type": "Expression",
@@ -34,18 +34,42 @@
     },
     {
       "trait_type": "Phrase",
-      "value": "None"
+      "value": "Any Moment Now"
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Uncommon"
+      "value": "Rare"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 910
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Chart Prophet"
     }
   ],
   "properties": {
     "edition": 910,
     "edition_size": 1200,
-    "rarity_score": 19.116035,
-    "rarity_rank": 1109,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 31.37215,
+    "rarity_rank": 18,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

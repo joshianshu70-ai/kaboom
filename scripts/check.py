@@ -60,3 +60,24 @@ if candidate.exists():
   assert m['image']==f"../images/{e['id']}.png",'Draft export image path mismatch'
  assert plan[0]['rarity']=='Ultra Rare Gold' and plan[0]['specialEdition']=='Genesis Prime'
  print('Passed: isolated draft assets, all bracket quotas, Genesis Prime #1 and 1,200 matching draft metadata files.')
+
+# Published IPFS release: edition plans, metadata, hashes and gallery must agree.
+publication=s/'collection/publication.json'
+if publication.exists():
+ published=json.loads(publication.read_text());manifest=published['editions']
+ assert published['edition_count']==1200 and set(manifest)=={str(i) for i in range(1,1201)}
+ gallery={e['id']:e for e in json.loads((s/'collection/gallery-data.json').read_text())}
+ plans=json.loads((s/'collection/artwork-plan.json').read_text())['editions']
+ for e in plans:
+  id=str(e['id']);record=manifest[id];raw=(s/'collection/metadata'/id).read_bytes();m=json.loads(raw)
+  assert hashlib.sha256(raw).hexdigest()==record['metadata']['sha256'], 'Published metadata hash mismatch #'+id
+  assert m['image']=='ipfs://'+record['image']['cid'] and e['sha256']==record['image']['sha256'], 'Published artwork mismatch #'+id
+  attrs={a['trait_type']:a['value'] for a in m['attributes']}
+  assert attrs['Serial Number']==e['id'] and attrs['Rarity Tier']==e['rarity'] and attrs['Agent Class']==e['agentClass']
+  assert gallery[e['id']]['tier']==e['rarity'] and gallery[e['id']]['rank']==m['properties']['rarity_rank']
+ config=json.loads((s/'rarity-config.json').read_text());assert config['published']
+ for b in config['brackets']:
+  assert Counter(e['rarity'] for e in plans if b['start']<=e['id']<=b['end'])==dict(zip(config['tiers'],b['counts']))
+ assert plans[0]['specialEdition']=='Genesis Prime' and plans[0]['rarity']=='Ultra Rare Gold'
+ assert 'UNPUBLISHED DRAFT' not in (s/'admin/studio/index.html').read_text()
+ print('Passed: all 1,200 published IPFS editions match metadata hashes, gallery, brackets and Genesis Prime #1.')

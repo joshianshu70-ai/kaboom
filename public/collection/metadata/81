@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #81",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeiaj2pbm74grl4wbrc2zitz2txk4kqrsmwcqfzilgsjy7w6naf3ow4",
+  "image": "ipfs://bafybeihmmoc7zyx4cd75sq73z6cbwolp7ar5u5hfrxn2z2itamkbeipxka",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Royal Starship"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Aura",
@@ -22,11 +22,11 @@
     },
     {
       "trait_type": "Expression",
-      "value": "Unbothered"
+      "value": "Rolled Eyes"
     },
     {
       "trait_type": "Headgear",
-      "value": "Trucker Cap"
+      "value": "Beanie"
     },
     {
       "trait_type": "Chart",
@@ -39,13 +39,37 @@
     {
       "trait_type": "Edition Tier",
       "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 81
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Terminal Degen"
     }
   ],
   "properties": {
     "edition": 81,
     "edition_size": 1200,
-    "rarity_score": 18.408837,
-    "rarity_rank": 1169,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 20.407831,
+    "rarity_rank": 884,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

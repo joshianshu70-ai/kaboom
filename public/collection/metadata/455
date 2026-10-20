@@ -1,51 +1,75 @@
 {
   "name": "Agent X-84 #455",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeigwfpvxk4uzfgcllq7phksdsw32s3soawrdvooy4oszhmrtds76ea",
+  "image": "ipfs://bafybeigf55pf6fb3jcd37n3vdolhzuffe7bjtoo5ft5qkesff35f5jj3va",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Neon City"
+      "value": "Royal Starship"
     },
     {
       "trait_type": "Aura",
-      "value": "Emerald"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Lime"
-    },
-    {
-      "trait_type": "Outfit",
-      "value": "Galactic Emperor"
-    },
-    {
-      "trait_type": "Expression",
-      "value": "Cosmic Rage"
-    },
-    {
-      "trait_type": "Headgear",
-      "value": "Pilot Goggles"
-    },
-    {
-      "trait_type": "Chart",
-      "value": "Golden Cross"
-    },
-    {
-      "trait_type": "Phrase",
       "value": "None"
     },
     {
+      "trait_type": "Body",
+      "value": "Cosmic Purple"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pirate Captain"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Panic Eyes"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "None"
+    },
+    {
+      "trait_type": "Phrase",
+      "value": "Send It"
+    },
+    {
       "trait_type": "Edition Tier",
-      "value": "Common"
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 455
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Liquidity Pirate"
     }
   ],
   "properties": {
     "edition": 455,
     "edition_size": 1200,
-    "rarity_score": 24.596573,
-    "rarity_rank": 484,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 29.855117,
+    "rarity_rank": 41,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

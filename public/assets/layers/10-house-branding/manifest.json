@@ -1,0 +1,58 @@
+{
+  "trait_type": "House Branding",
+  "values": [
+    "None",
+    "Gold Embroidered HOJ"
+  ],
+  "allowed_outfits": [
+    "grey-hoodie",
+    "puffer-jacket",
+    "purple-hoodie"
+  ],
+  "default_for_other_outfits": "None",
+  "variant_by_outfit": {
+    "grey-hoodie": "branding/gold-embroidered-hoj--grey-hoodie.png",
+    "puffer-jacket": "branding/gold-embroidered-hoj--puffer-jacket.png",
+    "purple-hoodie": "branding/gold-embroidered-hoj--purple-hoodie.png"
+  },
+  "placement": {
+    "purple-hoodie": {
+      "center": [
+        740,
+        950
+      ],
+      "bounds": [
+        701,
+        906,
+        779,
+        994
+      ]
+    },
+    "puffer-jacket": {
+      "center": [
+        740,
+        950
+      ],
+      "bounds": [
+        701,
+        906,
+        779,
+        994
+      ]
+    },
+    "grey-hoodie": {
+      "center": [
+        740,
+        950
+      ],
+      "bounds": [
+        701,
+        906,
+        779,
+        994
+      ]
+    }
+  },
+  "render_after": "outfit",
+  "render_before": "expression"
+}

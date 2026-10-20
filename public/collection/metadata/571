@@ -1,51 +1,75 @@
 {
   "name": "Agent X-84 #571",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeihhit7nngy7cbkzlwurbugywqhxbqhshqbttfbjm4hvf4egjpexbi",
+  "image": "ipfs://bafybeibx3ojavjcpobtxpser7gkcfia3zvilvrfaen7kjy4w4jrv6fnwni",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Cosmic Temple"
+      "value": "Lunar Penthouse"
     },
     {
       "trait_type": "Aura",
-      "value": "Violet"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Lime"
-    },
-    {
-      "trait_type": "Outfit",
-      "value": "Royal Commander"
-    },
-    {
-      "trait_type": "Expression",
-      "value": "Unbothered"
-    },
-    {
-      "trait_type": "Headgear",
-      "value": "Cowboy Hat"
-    },
-    {
-      "trait_type": "Chart",
       "value": "None"
     },
     {
+      "trait_type": "Body",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Trading Suit"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Yeah Right"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Black Headphones"
+    },
+    {
+      "trait_type": "Chart",
+      "value": "Golden Cross"
+    },
+    {
       "trait_type": "Phrase",
-      "value": "Diamond Hands"
+      "value": "None"
     },
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 571
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Chart Prophet"
     }
   ],
   "properties": {
     "edition": 571,
     "edition_size": 1200,
-    "rarity_score": 26.183206,
-    "rarity_rank": 293,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 26.691498,
+    "rarity_rank": 229,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

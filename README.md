@@ -82,3 +82,7 @@ The upload does not change the contract URI or deploy the site. Published metada
 The live contract is funded for 1,200 mints at the current 500,000 KABOOM price (last checked 2026-10-19). Its metadata base string was empty at launch verification. The mint interface checks the on-chain string from the non-proxy AgentX84 storage layout (slot 13) and enables mint reviews only when it matches the prepared production metadata URL. Account/network/price/funding checks remain in place.
 
 The owner must open /admin/?setup=metadata, connect the current owner wallet on Base, review the prefilled URL and sign setBaseURI. This is a separate wallet transaction. Refresh the mint page once confirmed. The website never changes the contract URI automatically or signs for the owner.
+
+## Published bracketed collection — 20 October 2026
+
+The reviewed 1,200-piece bracketed collection is now the production artwork release. `public/collection/publication.json` records all image and metadata CIDs and SHA-256 hashes. The studio, gallery and mint metadata share this plan: Genesis #1–120, Vanguard #121–600, Main Collection #601–1200, including Genesis Prime #1 and twelve gold editions. Images and metadata are pinned to IPFS. The existing contract metadata base URL remains unchanged; publication requires no new contract or wallet transaction. The preserved `/draft/` files are a historical workspace, not the active mint source. Production checks verify all metadata hashes against the release manifest.

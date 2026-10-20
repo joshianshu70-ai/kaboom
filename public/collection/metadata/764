@@ -1,36 +1,36 @@
 {
   "name": "Agent X-84 #764",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeifyje5kfmuhhr4dmwwj2fnnufrxsiiq3p6buelg7egueatsfgtq5e",
+  "image": "ipfs://bafybeidaamdj3gpzf2t234e5wxq35urwk2xoicjybmt2k5fw44jbpv3yce",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Purple Nebula"
+      "value": "Deep Space"
     },
     {
       "trait_type": "Aura",
-      "value": "Gold"
+      "value": "None"
     },
     {
       "trait_type": "Body",
-      "value": "Ultra Rare Gold"
+      "value": "Lime"
     },
     {
       "trait_type": "Outfit",
-      "value": "Trading Suit"
+      "value": "Pirate Captain"
     },
     {
       "trait_type": "Expression",
-      "value": "Cosmic Rage"
+      "value": "Panic Eyes"
     },
     {
       "trait_type": "Headgear",
-      "value": "Gold Headphones"
+      "value": "Cowboy Hat"
     },
     {
       "trait_type": "Chart",
-      "value": "Cup And Handle"
+      "value": "None"
     },
     {
       "trait_type": "Phrase",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Ultra Rare Gold"
+      "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 764
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Liquidity Pirate"
     }
   ],
   "properties": {
     "edition": 764,
     "edition_size": 1200,
-    "rarity_score": 35.470397,
-    "rarity_rank": 7,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 22.200388,
+    "rarity_rank": 656,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

@@ -1,12 +1,12 @@
 {
   "name": "Agent X-84 #307",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeiaj7vpgdebob5a7otum5dqjy2kp3viogck3ulziv4nobhnofwxcb4",
+  "image": "ipfs://bafybeig623jzr4d4bpg2etg67pxbirpsqvmnsfu7ola4gn6qolvspszjey",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Deep Space"
+      "value": "Lunar Penthouse"
     },
     {
       "trait_type": "Aura",
@@ -14,15 +14,15 @@
     },
     {
       "trait_type": "Body",
-      "value": "Silver"
+      "value": "Mint"
     },
     {
       "trait_type": "Outfit",
-      "value": "Tactical Agent"
+      "value": "Pirate Captain"
     },
     {
       "trait_type": "Expression",
-      "value": "Cosmic Rage"
+      "value": "Panic Eyes"
     },
     {
       "trait_type": "Headgear",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Rare"
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 307
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Liquidity Pirate"
     }
   ],
   "properties": {
     "edition": 307,
     "edition_size": 1200,
-    "rarity_score": 20.084656,
-    "rarity_rank": 1049,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 22.106999,
+    "rarity_rank": 669,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

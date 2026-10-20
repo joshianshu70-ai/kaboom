@@ -1,0 +1,60 @@
+{
+  "total": 1200,
+  "seed": "KABOOM-X84-BRACKETED-1200-V1",
+  "method": "Shuffle visual trait sets within existing tiers, assign tiers within exact bracket quotas; sampling without replacement. Not independent probability rolls.",
+  "tiers": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Ultra Rare Gold"
+  ],
+  "brackets": [
+    {
+      "name": "Genesis",
+      "start": 1,
+      "end": 120,
+      "counts": [
+        36,
+        36,
+        30,
+        12,
+        6
+      ]
+    },
+    {
+      "name": "Vanguard",
+      "start": 121,
+      "end": 600,
+      "counts": [
+        182,
+        180,
+        90,
+        24,
+        4
+      ]
+    },
+    {
+      "name": "Main Collection",
+      "start": 601,
+      "end": 1200,
+      "counts": [
+        382,
+        144,
+        60,
+        12,
+        2
+      ]
+    }
+  ],
+  "published": true,
+  "locked_editions": {
+    "1": {
+      "tier": "Ultra Rare Gold",
+      "agent_class": "Genesis",
+      "name": "Genesis Prime",
+      "artwork_sha256": "11d69c19d9da4de70828d17c8d5e26a0a87bc03f699f703378fc6b3260c2b718"
+    }
+  },
+  "art_direction": "HOJ intentional meme collection v1"
+}

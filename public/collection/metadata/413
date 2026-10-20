@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #413",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeiew4dusrpdthnpwekkf5gbd2v6iz4parrvvzngfqcyj2d546au2pq",
+  "image": "ipfs://bafybeihl7jbc66jozvtgyyykceilv4q3yld4lhakfbsifsmdkxk7dog4vu",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -14,19 +14,19 @@
     },
     {
       "trait_type": "Body",
-      "value": "Cosmic Purple"
+      "value": "Mint"
     },
     {
       "trait_type": "Outfit",
-      "value": "Astronaut"
+      "value": "Space Suit"
     },
     {
       "trait_type": "Expression",
-      "value": "Yeah Right"
+      "value": "Unbothered"
     },
     {
       "trait_type": "Headgear",
-      "value": "Space Helmet"
+      "value": "Trucker Cap"
     },
     {
       "trait_type": "Chart",
@@ -38,14 +38,38 @@
     },
     {
       "trait_type": "Edition Tier",
-      "value": "Rare"
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Vanguard"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 413
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Moon Mission"
     }
   ],
   "properties": {
     "edition": 413,
     "edition_size": 1200,
-    "rarity_score": 21.217474,
-    "rarity_rank": 938,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 17.857417,
+    "rarity_rank": 1174,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

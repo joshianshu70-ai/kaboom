@@ -1,7 +1,7 @@
 {
   "name": "Agent X-84 #1081",
   "description": "Agent X-84: a 1,200-piece $KABOOM alien collection on Base. Generative cosmic outfits, meme-culture traits and decorative chart patterns. Artwork does not promise financial returns.",
-  "image": "ipfs://bafybeihvt7cwoecl6cc7eabbqxyfkkof367jwrgibooqqwqsopwdhhiygi",
+  "image": "ipfs://bafybeife2wkns25ermfe62emm7b2g7cukmi3fr7qujhgqx4bftjfnd7wpm",
   "external_url": "https://thehouseofjoshi.com",
   "attributes": [
     {
@@ -14,15 +14,15 @@
     },
     {
       "trait_type": "Body",
-      "value": "Lime"
+      "value": "Mint"
     },
     {
       "trait_type": "Outfit",
-      "value": "Galactic Emperor"
+      "value": "Puffer Jacket"
     },
     {
       "trait_type": "Expression",
-      "value": "Fomo Eyes"
+      "value": "Diamond Focus"
     },
     {
       "trait_type": "Headgear",
@@ -34,18 +34,42 @@
     },
     {
       "trait_type": "Phrase",
-      "value": "None"
+      "value": "Hodl"
     },
     {
       "trait_type": "Edition Tier",
       "value": "Common"
+    },
+    {
+      "trait_type": "House Branding",
+      "value": "Gold Embroidered HOJ"
+    },
+    {
+      "trait_type": "Agent Class",
+      "value": "Main Collection"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Serial Number",
+      "value": 1081
+    },
+    {
+      "trait_type": "Headgear Branding",
+      "value": "None"
+    },
+    {
+      "trait_type": "Meme Archetype",
+      "value": "Winter Holder"
     }
   ],
   "properties": {
     "edition": 1081,
     "edition_size": 1200,
-    "rarity_score": 19.467966,
-    "rarity_rank": 1073,
-    "rarity_method": "Sum of -log2 observed individual trait frequencies; excludes assigned edition tier. Correlated traits are not independent."
+    "rarity_score": 24.801536,
+    "rarity_rank": 383,
+    "rarity_method": "Observed visual trait frequency score, including correlated meme archetypes and hallmarks. Excludes serial, class, tier and special-edition labels; not a value ranking."
   }
 }

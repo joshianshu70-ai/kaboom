@@ -105,5 +105,13 @@
     "wagmi",
     "wen-lambo",
     "wen-moon"
+  ],
+  "10-house-branding": [
+    "none",
+    "gold-embroidered-hoj"
+  ],
+  "11-headgear-branding": [
+    "none",
+    "gold-embroidered-hoj"
   ]
 }
