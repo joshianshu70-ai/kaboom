@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-20",
+  "removed": [
+    {
+      "path": "outputs/KABOOM-COMPLETE-PROJECT.zip",
+      "bytes": 2424826556
+    },
+    {
+      "path": "outputs/agent-x84-corrected-hat-layers-v9.zip",
+      "bytes": 3647974
+    },
+    {
+      "path": "outputs/agent-x84-corrected-hat-nfts-v9.zip",
+      "bytes": 575201812
+    },
+    {
+      "path": "outputs/agent-x84-face-alignment-v3.zip",
+      "bytes": 16551259
+    },
+    {
+      "path": "outputs/agent-x84-final-1200-v2.zip",
+      "bytes": 2277390712
+    },
+    {
+      "path": "outputs/agent-x84-final-metadata-local.zip",
+      "bytes": 866747
+    },
+    {
+      "path": "outputs/agent-x84-master-headgear-v8.zip",
+      "bytes": 33771530
+    },
+    {
+      "path": "outputs/exact-reference-hat-v11.zip",
+      "bytes": 566302117
+    },
+    {
+      "path": "outputs/kaboom-github.zip",
+      "bytes": 107119853
+    },
+    {
+      "path": "outputs/launch-ready/button-colors-update.zip",
+      "bytes": 35720
+    },
+    {
+      "path": "outputs/launch-ready/clean-url-update.zip",
+      "bytes": 54511
+    },
+    {
+      "path": "outputs/launch-ready/footer-update.zip",
+      "bytes": 35448
+    },
+    {
+      "path": "outputs/launch-ready/header-update.zip",
+      "bytes": 37924
+    },
+    {
+      "path": "outputs/launch-ready/production-url-update.zip",
+      "bytes": 40170
+    },
+    {
+      "path": "outputs/launch-ready/website-branding-update.zip",
+      "bytes": 3235094
+    },
+    {
+      "path": "outputs/launch-ready/website-deploy.zip",
+      "bytes": 2296798749
+    },
+    {
+      "path": "outputs/launch-ready/website-pages-update.zip",
+      "bytes": 35247
+    },
+    {
+      "path": "outputs/kaboom-github/dist",
+      "bytes": 2302167087
+    },
+    {
+      "path": "outputs/agent-x84-bracketed-rarity-draft/site/assets/layers/10-house-branding/gold-embroidered-hoj--cyberpunk-jacket.png",
+      "bytes": 8399
+    },
+    {
+      "path": "outputs/agent-x84-bracketed-rarity-draft/site/assets/layers/10-house-branding/gold-embroidered-hoj--tactical-agent.png",
+      "bytes": 8417
+    },
+    {
+      "path": "outputs/kaboom-github/public/draft/assets/layers/10-house-branding/gold-embroidered-hoj--cyberpunk-jacket.png",
+      "bytes": 8399
+    },
+    {
+      "path": "outputs/kaboom-github/public/draft/assets/layers/10-house-branding/gold-embroidered-hoj--tactical-agent.png",
+      "bytes": 8417
+    }
+  ],
+  "removed_logical_bytes": 10608152142,
+  "preserved": [
+    "Current 1,200 draft images, thumbnails and metadata",
+    "Published mint artwork and IPFS metadata",
+    "All editable layer sources, scripts and fit references",
+    "Contracts, dependencies and upload records"
+  ],
+  "note": "Removed ZIP exports and dist are regenerable; source artwork folders were preserved."
+}
