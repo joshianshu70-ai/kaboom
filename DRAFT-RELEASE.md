@@ -79,3 +79,7 @@ Changed the centred tactical grey collar-strip mark to gold, contained inside th
 ## Clean tactical collar
 
 Removed the small gold mark from the tactical grey collar strip by restoring its original pixels. Buckle marks remain unchanged. Rebuilt all 86 tactical draft editions.
+
+## Marked tactical chest panel
+
+Placed a small gold HOJ mark inside the dark wearer-left chest panel specified by the user, clear of the strap and panel seams. Collar remains clean. Rebuilt all 86 tactical draft editions. Live mint metadata remains unchanged.
