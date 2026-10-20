@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-tactical-buckles-v16",
+  "revision": "hoj-pirate-gold-v17",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -37,7 +37,7 @@
     "assets/layers/04-outfits/royal-commander.png": "23acecf7e525a3f92c4b0fe4b8771c773eddb4b744033c652525e11429010f6c",
     "assets/layers/04-outfits/racing-suit.png": "0b0826831a08d186e2a6121c5c75271fd921bc85799b9b85421024992f6aa581",
     "assets/layers/04-outfits/cyberpunk-jacket.png": "7611b923fffd599ae6b8b19dfe6dd54d820e4c8b6eaf8c0133ce1d65fcedc263",
-    "assets/layers/04-outfits/pirate-captain.png": "68d31ba29195f70dd210ae04d3ae06d6b0437ac6980e9d85d3e6efd6bdbcccae",
+    "assets/layers/04-outfits/pirate-captain.png": "b322662000d2c8856ba8f4861437e3008b7238deab3349f63deace15e9596fb2",
     "assets/layers/03-base-bodies/emerald.png": "dc0e04d7baf105fd90babf73020ea90553b6832ddffa7e9b24a6410bb1548591",
     "assets/layers/03-base-bodies/lime.png": "bda2cd9b624d9f303dad2105d03151816213912a22c75b47ef937ca5f994070b",
     "assets/layers/03-base-bodies/cosmic-purple.png": "06ea0511bcfcb6bd14ed6ea1957c8183fcdebfb7cb3a85aece7df699a448792e",

@@ -63,3 +63,7 @@ Added a centred silver mark contained within the narrow tactical collar strip, a
 ## Tactical buckle marks
 
 Added matching silver HOJ reliefs to the mirrored metal sides of both tactical shoulder-strap buckles. No zipper-tab logo was added. Rebuilt all 86 tactical draft editions.
+
+## Gold pirate button monograms
+
+Changed the six HOJ button reliefs on the pirate coat to gold while preserving the fitted silver button rims. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
