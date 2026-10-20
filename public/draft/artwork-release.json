@@ -1,5 +1,5 @@
 {
-  "revision": "hoj-pirate-gold-v17",
+  "revision": "hoj-gold-variants-v18",
   "files": {
     "assets/layers/01-backgrounds/neon-city.png": "22df759a3f59a774c71a6c8461da294f140c5dde576de0b51214fa34041bbeaf",
     "assets/layers/01-backgrounds/emerald-portal.png": "72263dc830c1c3385827db0ec64b87aef162bb5bae7d7fea21d76efaead678be",
@@ -31,12 +31,12 @@
     "assets/layers/04-outfits/purple-hoodie.png": "9acb7adc93e1b4efcaa38612aac05efa177b9ab057263893dafa2b835ba85547",
     "assets/layers/04-outfits/puffer-jacket.png": "ecb3930f1af06d821c0322a99581346dc0a6009a3e14c0e7e5e1f01a3c4cb649",
     "assets/layers/04-outfits/grey-hoodie.png": "de81a68bf219e5a4970068ab823c48f52d8633a52263a3be136111aecde8e31b",
-    "assets/layers/04-outfits/samurai-armor.png": "a343fd37fdc7bf09e9612bcf1bf2ded500b39835293219e8891ecc61b741f2ac",
+    "assets/layers/04-outfits/samurai-armor.png": "e0e8a155a5bef58fb265bd951c636a5fd609357acce2e60c491076dd6b1d5947",
     "assets/layers/04-outfits/trading-suit.png": "a11f8b6d5e8f84cfdb38f85651649c577f543bbf08468facae40af26ac306217",
     "assets/layers/04-outfits/space-suit.png": "e627ef2b95564f21fc4215d36864d111ff74aff5bfd340bf1117f9fc344ca4f2",
     "assets/layers/04-outfits/royal-commander.png": "23acecf7e525a3f92c4b0fe4b8771c773eddb4b744033c652525e11429010f6c",
     "assets/layers/04-outfits/racing-suit.png": "0b0826831a08d186e2a6121c5c75271fd921bc85799b9b85421024992f6aa581",
-    "assets/layers/04-outfits/cyberpunk-jacket.png": "7611b923fffd599ae6b8b19dfe6dd54d820e4c8b6eaf8c0133ce1d65fcedc263",
+    "assets/layers/04-outfits/cyberpunk-jacket.png": "7765abcd96d7e3697695e2abafbbc45d14fefbcffbcbcb3e93314e553f069289",
     "assets/layers/04-outfits/pirate-captain.png": "b322662000d2c8856ba8f4861437e3008b7238deab3349f63deace15e9596fb2",
     "assets/layers/03-base-bodies/emerald.png": "dc0e04d7baf105fd90babf73020ea90553b6832ddffa7e9b24a6410bb1548591",
     "assets/layers/03-base-bodies/lime.png": "bda2cd9b624d9f303dad2105d03151816213912a22c75b47ef937ca5f994070b",

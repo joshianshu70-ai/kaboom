@@ -67,3 +67,7 @@ Added matching silver HOJ reliefs to the mirrored metal sides of both tactical s
 ## Gold pirate button monograms
 
 Changed the six HOJ button reliefs on the pirate coat to gold while preserving the fitted silver button rims. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
+
+## Gold cyberpunk and samurai marks
+
+Changed the cyberpunk purple-inset mark and both samurai shoulder marks to gold at their approved fitted positions. Rebuilt all affected draft editions. Live mint metadata remains unchanged.
